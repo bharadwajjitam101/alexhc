@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -25,7 +26,9 @@ export default function About() {
             <p className="text-white text-sm sm:text-base mb-4" style={{fontFamily: 'Arial, sans-serif'}}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.
             </p>
-            <button className="bg-[#3376C8] text-white font-bold px-5 sm:px-7 py-3 rounded shadow hover:bg-[#2256a0] transition-all text-xs tracking-widest uppercase w-max" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Get a Free Quote</button>
+            <Link href="/contact">
+              <button className="bg-[#3376C8] text-white font-bold px-5 sm:px-7 py-3 rounded shadow hover:bg-[#2256a0] transition-all text-xs tracking-widest uppercase w-max" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Get a Free Quote</button>
+            </Link>
           </div>
           {/* Right: What We Do */}
           <div className="flex flex-col items-start text-left md:ml-8 w-full md:w-auto max-w-md md:max-w-none -mt-8 md:mt-0">
@@ -104,9 +107,9 @@ export default function About() {
               </div>
             </div>
           ))}
-          <button className="mt-6 sm:mt-8 border-4 border-black text-[#3376C8] font-bold px-8 sm:px-12 py-3 bg-white shadow-[6px_6px_0_0_rgba(0,0,0,0.18)] hover:bg-[#f3f7fd] transition-all text-xs sm:text-base tracking-widest uppercase w-max text-left rounded-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-            Free Quote
-          </button>
+          <Link href="/contact">
+            <button className="mt-6 sm:mt-8 border-4 border-black text-[#3376C8] font-bold px-8 sm:px-12 py-3 bg-white shadow-[6px_6px_0_0_rgba(0,0,0,0.18)] hover:bg-[#f3f7fd] transition-all text-xs sm:text-base tracking-widest uppercase w-max text-left rounded-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Free Quote</button>
+          </Link>
         </div>
         {/* Right: Image and stats bar */}
         <div className="flex-1 flex flex-col justify-end items-stretch p-0">
@@ -142,7 +145,7 @@ export default function About() {
       <section className="py-12 sm:py-24 bg-white">
         <div className="max-w-3xl mx-auto px-2 sm:px-4 text-center">
           <blockquote className="text-lg sm:text-2xl md:text-3xl font-extrabold text-[#232323] mb-6 sm:mb-8" style={{fontFamily: 'Montserrat, Arial, sans-serif', lineHeight: 1.3}}>
-            “Suspendisse neque erat, imperdiet ac non, sollicitudin accumsan lacus. Vestibulum ac ex rutrum, pellentesque purus et, lacinia mi. Nullam maximus lectus libero.”
+            "Suspendisse neque erat, imperdiet ac non, sollicitudin accumsan lacus. Vestibulum ac ex rutrum, pellentesque purus et, lacinia mi. Nullam maximus lectus libero."
           </blockquote>
           <div className="text-xs text-[#888] tracking-widest uppercase font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>John Smith – CEO</div>
         </div>

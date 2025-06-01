@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const projects = [
-  { img: "/projects/1.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/2.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/3.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
+  { img: "/building-construction-main.jpg", title: "Building Construction Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
+  { img: "/repairs-main.jpg", title: "Repairs & Installations Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
+  { img: "/custom-design-main.jpg", title: "Custom Design Projects Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
   { img: "/projects/4.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
   { img: "/projects/5.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
   { img: "/projects/6.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },

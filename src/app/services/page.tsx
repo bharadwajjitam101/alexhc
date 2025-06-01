@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Services() {
   return (
@@ -64,14 +65,17 @@ export default function Services() {
             Get a Quote For Your Project
           </h2>
           <button className="border-4 border-black text-[#3376C8] font-bold px-8 sm:px-14 py-3 bg-white text-xs tracking-widest uppercase shadow-[6px_6px_0_0_rgba(0,0,0,0.12)] transition-all duration-200 hover:bg-[#f3f7fd] hover:shadow-[8px_8px_0_0_rgba(0,0,0,0.18)] cursor-pointer" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-            Free Quote
+            <Link href="/contact">Free Quote</Link>
           </button>
         </div>
       </section>
 
       {/* Building Construction Section */}
-      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-center md:items-start">
-        <div className="bg-[#F8F8F8] max-w-3xl w-full md:ml-auto md:mr-40 px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
+          <img src="/building-construction-main.jpg" alt="Building Construction Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
             Building Construction
           </h3>
@@ -105,7 +109,7 @@ export default function Services() {
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
               <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                Get a Quote
+                <Link href="/contact">Get a Quote</Link>
               </button>
             </div>
           </div>
@@ -113,8 +117,8 @@ export default function Services() {
       </section>
 
       {/* Repairs & Installations Section */}
-      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-center md:items-start">
-        <div className="bg-white max-w-3xl w-full md:ml-20 px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+      <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
               Repairs & Installations
           </h3>
@@ -148,16 +152,22 @@ export default function Services() {
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
               <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                Get a Quote
+                <Link href="/contact">Get a Quote</Link>
               </button>
             </div>
           </div>
         </div>
+        <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
+          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
       </section>
 
       {/* Custom Design Projects Section */}
-      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-center md:items-start">
-        <div className="bg-[#F8F8F8] max-w-3xl w-full md:ml-auto md:mr-40 px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
+          <img src="/custom-design-main.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
             Custom Design Projects
           </h3>
@@ -191,7 +201,7 @@ export default function Services() {
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
               <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                Get a Quote
+                <Link href="/contact">Get a Quote</Link>
               </button>
             </div>
           </div>
@@ -206,10 +216,14 @@ export default function Services() {
           </h2>
           <div className="w-8 sm:w-10 h-1 bg-[#3376C8] mb-8 sm:mb-10 mt-2 mx-auto rounded"></div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-10 sm:gap-y-14 justify-center mb-8 sm:mb-12">
-            {[1,2,3].map((idx) => (
+            {[
+              { src: '/building-construction-main.jpg', alt: 'Building Construction Main' },
+              { src: '/repairs-main.jpg', alt: 'Repairs & Installations Main' },
+              { src: '/custom-design-main.jpg', alt: 'Custom Design Projects Main' }
+            ].map((img, idx) => (
               <div key={idx} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[140px] relative">
-                  <Image src={`/projects/${idx}.jpg`} alt="Service Title" fill className="object-cover object-center" />
+                  <Image src={img.src} alt={img.alt} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
                   <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Service Title</div>
@@ -225,7 +239,7 @@ export default function Services() {
           </div>
           <div className="flex justify-center">
             <button className="border-2 border-black text-[#232323] font-bold px-8 sm:px-10 py-2 bg-white text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-              View All
+              <Link href="/projects">View All</Link>
             </button>
           </div>
         </div>
