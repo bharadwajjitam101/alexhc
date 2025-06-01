@@ -1,19 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
+import projectsData from '../../../public/projects.json';
 
-const projects = [
-  { img: "/building-construction-main.jpg", title: "Building Construction Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/repairs-main.jpg", title: "Repairs & Installations Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/custom-design-main.jpg", title: "Custom Design Projects Main", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/4.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/5.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/6.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/7.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/8.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/9.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/10.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/11.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-  { img: "/projects/12.jpg", title: "Service Title", desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum." },
-];
+const projects = projectsData;
 
 export default function Projects() {
   return (
@@ -46,16 +35,18 @@ export default function Projects() {
         <div className="max-w-7xl mx-auto px-2 sm:px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-8 sm:gap-y-14 justify-center">
             {projects.map((proj, idx) => (
-              <div key={idx} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
+              <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[160px] relative">
-                  <Image src={proj.img} alt={proj.title} fill className="object-cover object-center" />
+                  <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
                   <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
-                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.desc}</div>
-                  <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                    Learn More
-                  </button>
+                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.about.desc}</div>
+                  <Link href={`/projects/${proj.id}`}>
+                    <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}

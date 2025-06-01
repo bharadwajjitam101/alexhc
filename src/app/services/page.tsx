@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import projectsData from '../../../public/projects.json';
 
 export default function Services() {
   return (
@@ -30,24 +31,24 @@ export default function Services() {
           </div>
           {/* Right: What We Do */}
           <div className="flex flex-col items-start text-left md:ml-8 w-full md:w-auto max-w-md md:max-w-none -mt-8 md:mt-0">
-            <div className="text-[#5B9DED] text-base sm:text-xl font-bold mb-3 sm:mb-4 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>What We Do</div>
+            <div className="text-[#ffffff] text-base sm:text-xl font-bold mb-3 sm:mb-4 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>What We Do</div>
             <div className="flex flex-col gap-y-3 sm:gap-y-4 w-full">
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
-                <Image src="/services/building-construction.png" alt="Building Construction" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/building-constructionw.svg" alt="Building Construction" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Construction</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
-                <Image src="/services/building-repairs.png" alt="Building Repairs" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/building-repairsw.svg" alt="Building Repairs" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Repairs</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center">
-                <Image src="/services/custom-design.png" alt="Custom Design" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/custom-designw.svg" alt="Custom Design" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Custom Design</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
@@ -216,23 +217,19 @@ export default function Services() {
           </h2>
           <div className="w-8 sm:w-10 h-1 bg-[#3376C8] mb-8 sm:mb-10 mt-2 mx-auto rounded"></div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-10 sm:gap-y-14 justify-center mb-8 sm:mb-12">
-            {[
-              { src: '/building-construction-main.jpg', alt: 'Building Construction Main' },
-              { src: '/repairs-main.jpg', alt: 'Repairs & Installations Main' },
-              { src: '/custom-design-main.jpg', alt: 'Custom Design Projects Main' }
-            ].map((img, idx) => (
-              <div key={idx} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
+            {projectsData.slice(0,3).map((proj) => (
+              <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[140px] relative">
-                  <Image src={img.src} alt={img.alt} fill className="object-cover object-center" />
+                  <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
-                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Service Title</div>
-                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, id et euismod bibendum adipiscing et orci, fermentum.
-                  </div>
-                  <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                    Learn More
-                  </button>
+                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
+                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.about.desc}</div>
+                  <Link href={`/projects/${proj.id}`}>
+                    <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}

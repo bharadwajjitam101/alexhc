@@ -1,0 +1,410 @@
+[
+  {
+    "id": 0,
+    "title": "Building Construction Main",
+    "date": "12 April 2018",
+    "client": "Monarch Group",
+    "type": "Building Renovation",
+    "heroImg": "/building-construction-main.jpg",
+    "about": {
+      "desc": "fbehrbhveLectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus.",
+      "bullets": [
+        "Maecenas ornare nisl",
+        "A tortor ultricies bibendum",
+        "Nulla fermentum",
+        "Metus quis",
+        "Sodales tristique"
+      ],
+      "img": "/custom-design-main.jpg"
+    },
+    "images": [
+      "/building-construction-main.jpg",
+      "/repairs-main.jpg",
+      "/custom-design-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/building-construction-main.jpg",
+        "text": "ejnvenvurLorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "ejvjervjeLectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis."
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "title": "Repairs & Installations Main",
+    "date": "22 June 2019",
+    "client": "Skyline Builders",
+    "type": "Repairs & Installations",
+    "heroImg": "/repairs-main.jpg",
+    "about": {
+      "desc": "jvenvjenjuvSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "bullets": [
+        "jiatm bh Ut enim ad minima veniam",
+        "Quis nostrum exercitationem",
+        "vjbejvbjeUllam corporis suscipit",
+        "Laboriosam nisi ut aliquid",
+        "Ex ea commodi consequatur"
+      ],
+      "img": "/repairs-main.jpg"
+    },
+    "images": [
+      "/repairs-main.jpg",
+      "/building-construction-main.jpg",
+      "/custom-design-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/repairs-main.jpg",
+        "text": "kvejbvjevSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "jvkebrjvbeNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Custom Design Projects Main",
+    "date": "5 March 2020",
+    "client": "Creative Spaces",
+    "type": "Custom Design",
+    "heroImg": "/custom-design-main.jpg",
+    "about": {
+      "desc": "vjebvhjeUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "bullets": [
+        "JitamQuis autem vel eum iure",
+        "Reprehenderit qui in ea",
+        "vekjbvjkevVoluptate velit esse quam",
+        "Nihil molestiae consequatur",
+        "Vel illum qui dolorem"
+      ],
+      "img": "/building-construction-main.jpg"
+    },
+    "images": [
+      "/custom-design-main.jpg",
+      "/building-construction-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "vkjebjvebvUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+      },
+      {
+        "img": "/building-construction-main.jpg",
+        "text": "vejkbvjebvVel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Bridge Construction",
+    "date": "10 July 2021",
+    "client": "City Infrastructure",
+    "type": "Bridge Construction",
+    "heroImg": "/about-bridge.jpg",
+    "about": {
+      "desc": "Specializing in modern bridge construction for urban and rural development, ensuring safety and durability.",
+      "bullets": [
+        "Steel and concrete bridges",
+        "Advanced engineering",
+        "Long-span solutions",
+        "Sustainable materials",
+        "On-time delivery"
+      ],
+      "img": "/about-bridge.jpg"
+    },
+    "images": [
+      "/about-bridge.jpg",
+      "/building-construction-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/about-bridge.jpg",
+        "text": "Our bridge construction projects utilize the latest engineering techniques and materials to ensure longevity and safety for all users."
+      },
+      {
+        "img": "/building-construction-main.jpg",
+        "text": "We work closely with city planners and engineers to deliver bridges that meet the highest standards of quality and design."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Commercial Renovation",
+    "date": "18 September 2022",
+    "client": "Downtown Business Center",
+    "type": "Renovation",
+    "heroImg": "/about-carousel.jpg",
+    "about": {
+      "desc": "Transforming commercial spaces with innovative renovation solutions for modern businesses.",
+      "bullets": [
+        "Office upgrades",
+        "Retail space redesign",
+        "Energy-efficient improvements",
+        "Minimal disruption",
+        "Custom finishes"
+      ],
+      "img": "/about-carousel.jpg"
+    },
+    "images": [
+      "/about-carousel.jpg",
+      "/custom-design-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/about-carousel.jpg",
+        "text": "Our team specializes in commercial renovations that enhance productivity and appeal for businesses of all sizes."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "We deliver projects on time and within budget, with a focus on quality and client satisfaction."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Residential Remodeling",
+    "date": "2 February 2023",
+    "client": "Greenfield Homes",
+    "type": "Remodeling",
+    "heroImg": "/contact-bg.jpg",
+    "about": {
+      "desc": "High-quality residential remodeling to enhance comfort, value, and style in every home.",
+      "bullets": [
+        "Kitchen and bath upgrades",
+        "Open concept living",
+        "Energy-saving solutions",
+        "Modern finishes",
+        "Personalized design"
+      ],
+      "img": "/contact-bg.jpg"
+    },
+    "images": [
+      "/contact-bg.jpg",
+      "/building-bg.jpg",
+      "/custom-design-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/contact-bg.jpg",
+        "text": "We turn your vision into reality with expert remodeling services tailored to your needs."
+      },
+      {
+        "img": "/building-bg.jpg",
+        "text": "From concept to completion, our team ensures a smooth and satisfying remodeling experience."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Industrial Projects",
+    "date": "15 May 2022",
+    "client": "Mega Industries",
+    "type": "Industrial Construction",
+    "heroImg": "/hero-bg.jpg",
+    "about": {
+      "desc": "Comprehensive industrial construction and maintenance services for factories and warehouses.",
+      "bullets": [
+        "Large-scale builds",
+        "Heavy equipment installation",
+        "Safety compliance",
+        "Ongoing maintenance",
+        "Custom solutions"
+      ],
+      "img": "/hero-bg.jpg"
+    },
+    "images": [
+      "/hero-bg.jpg",
+      "/repairs-main.jpg",
+      "/building-construction-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/hero-bg.jpg",
+        "text": "Our industrial projects are built to last, with a focus on efficiency and safety."
+      },
+      {
+        "img": "/repairs-main.jpg",
+        "text": "We provide ongoing support and maintenance to keep your operations running smoothly."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Green Building Solutions",
+    "date": "28 August 2021",
+    "client": "EcoBuild Corp",
+    "type": "Sustainable Construction",
+    "heroImg": "/building-bg.jpg",
+    "about": {
+      "desc": "Sustainable and eco-friendly building solutions for a greener future.",
+      "bullets": [
+        "LEED-certified projects",
+        "Renewable materials",
+        "Energy-efficient systems",
+        "Low carbon footprint",
+        "Healthy indoor environments"
+      ],
+      "img": "/building-bg.jpg"
+    },
+    "images": [
+      "/building-bg.jpg",
+      "/contact-bg.jpg",
+      "/custom-design-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/building-bg.jpg",
+        "text": "We are committed to building sustainable structures that benefit both people and the planet."
+      },
+      {
+        "img": "/contact-bg.jpg",
+        "text": "Our green building solutions help clients achieve their environmental goals."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Interior Design",
+    "date": "12 November 2022",
+    "client": "Modern Living",
+    "type": "Interior Design",
+    "heroImg": "/alex.png",
+    "about": {
+      "desc": "Creative and functional interior design for homes and offices, tailored to your style.",
+      "bullets": [
+        "Space planning",
+        "Color consultation",
+        "Furniture selection",
+        "Lighting design",
+        "Custom decor"
+      ],
+      "img": "/alex.png"
+    },
+    "images": [
+      "/alex.png",
+      "/about-carousel.jpg",
+      "/custom-design-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/alex.png",
+        "text": "Our interior design team creates beautiful, functional spaces that reflect your personality."
+      },
+      {
+        "img": "/about-carousel.jpg",
+        "text": "We work with you every step of the way to ensure your vision comes to life."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Exterior Facade Upgrades",
+    "date": "3 March 2023",
+    "client": "Urban Renewal",
+    "type": "Facade Upgrade",
+    "heroImg": "/alexBW 1.svg",
+    "about": {
+      "desc": "Modernizing building exteriors with innovative facade upgrades for lasting appeal.",
+      "bullets": [
+        "Contemporary materials",
+        "Weather resistance",
+        "Energy efficiency",
+        "Architectural lighting",
+        "Custom finishes"
+      ],
+      "img": "/alexBW 1.svg"
+    },
+    "images": [
+      "/alexBW 1.svg",
+      "/window.svg",
+      "/building-bg.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/alexBW 1.svg",
+        "text": "Our facade upgrades enhance curb appeal and property value for all types of buildings."
+      },
+      {
+        "img": "/window.svg",
+        "text": "We use durable, modern materials to ensure long-lasting results."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Window & Door Installations",
+    "date": "20 June 2022",
+    "client": "Home Solutions",
+    "type": "Installations",
+    "heroImg": "/window.svg",
+    "about": {
+      "desc": "Professional installation of windows and doors for residential and commercial properties.",
+      "bullets": [
+        "Energy-efficient windows",
+        "Secure doors",
+        "Custom sizing",
+        "Quick installation",
+        "Warranty included"
+      ],
+      "img": "/window.svg"
+    },
+    "images": [
+      "/window.svg",
+      "/alex.png",
+      "/building-construction-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/window.svg",
+        "text": "We offer a wide range of window and door options to fit any style and budget."
+      },
+      {
+        "img": "/alex.png",
+        "text": "Our experienced team ensures a perfect fit and finish every time."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Global Construction Projects",
+    "date": "8 December 2021",
+    "client": "International Ventures",
+    "type": "Global Projects",
+    "heroImg": "/globe.svg",
+    "about": {
+      "desc": "Managing and executing construction projects worldwide with expertise and reliability.",
+      "bullets": [
+        "International standards",
+        "Multinational teams",
+        "Remote site management",
+        "Cultural sensitivity",
+        "Turnkey solutions"
+      ],
+      "img": "/globe.svg"
+    },
+    "images": [
+      "/globe.svg",
+      "/about-bridge.jpg",
+      "/hero-bg.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/globe.svg",
+        "text": "Our global projects are managed with precision and care, no matter the location."
+      },
+      {
+        "img": "/about-bridge.jpg",
+        "text": "We adapt to local regulations and cultures to deliver successful outcomes worldwide."
+      }
+    ]
+  }
+] 

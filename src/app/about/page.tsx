@@ -35,21 +35,21 @@ export default function About() {
             <div className="text-[#5B9DED] text-base sm:text-xl font-bold mb-3 sm:mb-4 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>What We Do</div>
             <div className="flex flex-col gap-y-3 sm:gap-y-4 w-full">
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
-                <Image src="/services/building-construction.png" alt="Building Construction" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/building-constructionb.svg" alt="Building Construction" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Construction</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
-                <Image src="/services/building-repairs.png" alt="Building Repairs" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/building-repairsb.svg" alt="Building Repairs" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Repairs</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center">
-                <Image src="/services/custom-design.png" alt="Custom Design" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
+                <Image src="/custom-designb.svg" alt="Custom Design" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
                   <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Custom Design</div>
                   <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>

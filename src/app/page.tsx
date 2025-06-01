@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import projectsData from '../../public/projects.json';
 
 export default function Home() {
   return (
@@ -32,7 +33,7 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* Service Item 1 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/building-construction.png" alt="Building Construction Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/building-construction.svg" alt="Building Construction Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Construction</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -41,7 +42,7 @@ export default function Home() {
 
             {/* Service Item 2 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/building-repairs.png" alt="Building Repairs Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/building-repairs.svg" alt="Building Repairs Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Repairs</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -50,7 +51,7 @@ export default function Home() {
 
             {/* Service Item 3 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/demolition.png" alt="Demolition Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/demolition.svg" alt="Demolition Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Demolition</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -59,7 +60,7 @@ export default function Home() {
 
             {/* Service Item 4 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/foundation.png" alt="Foundation Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/foundation.svg" alt="Foundation Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Foundation</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -68,7 +69,7 @@ export default function Home() {
 
             {/* Service Item 5 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/painting-exterior.png" alt="Painting & Exterior Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/painting-exterior.svg" alt="Painting & Exterior Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Painting & Exterior</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -77,7 +78,7 @@ export default function Home() {
 
             {/* Service Item 6 */}
             <div className="flex items-start space-x-4">
-              <Image src="/services/site-management.png" alt="Site Management Icon" width={48} height={48} className="w-12 h-12 object-contain" />
+              <Image src="/site-management.svg" alt="Site Management Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
                 <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Site Management</h3>
                 <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
@@ -175,23 +176,19 @@ export default function Home() {
           </h2>
           <div className="w-8 sm:w-10 h-1 bg-[#3376C8] mb-8 sm:mb-10 mt-2 mx-auto rounded"></div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-10 sm:gap-y-14 justify-center mb-8 sm:mb-12">
-            {[
-              { src: '/building-construction-main.jpg', alt: 'Building Construction Main' },
-              { src: '/repairs-main.jpg', alt: 'Repairs & Installations Main' },
-              { src: '/custom-design-main.jpg', alt: 'Custom Design Projects Main' }
-            ].map((img, idx) => (
-              <div key={idx} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
+            {projectsData.slice(0,3).map((proj) => (
+              <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[140px] relative">
-                  <Image src={img.src} alt={img.alt} fill className="object-cover object-center" />
+                  <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
-                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Service Title</div>
-                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, id et euismod bibendum adipiscing et orci, fermentum.
-                  </div>
-                  <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                    Learn More
-                  </button>
+                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
+                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.about.desc}</div>
+                  <Link href={`/projects/${proj.id}`}>
+                    <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                      Learn More
+                    </button>
+                  </Link>
                 </div>
               </div>
             ))}

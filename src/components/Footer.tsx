@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import projectsData from '../../public/projects.json';
 
 export default function Footer() {
   return (
@@ -31,10 +32,13 @@ export default function Footer() {
           <div className="w-[140px]">
             <h3 className="text-[0.9rem] mb-4" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Latest Projects</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Example</a></li>
-              <li><a href="#" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Example</a></li>
-              <li><a href="#" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Example</a></li>
-              <li><a href="#" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Example</a></li>
+              {projectsData.slice(-3).map((proj) => (
+                <li key={proj.id}>
+                  <Link href={`/projects/${proj.id}`} className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+                    {proj.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
           <div className="w-[140px]">
