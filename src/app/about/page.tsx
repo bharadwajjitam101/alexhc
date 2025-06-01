@@ -75,9 +75,9 @@ export default function About() {
       </section>
 
       {/* Only the Best Section */}
-      <section className="w-full flex flex-col md:flex-row min-h-[520px]">
+      <section className="w-full flex flex-col md:flex-row min-h-[600px]">
         {/* Left: White column with points and button */}
-        <div className="w-full md:w-[420px] bg-white flex flex-col justify-start px-12 pt-14 pb-24">
+        <div className="w-full md:w-[420px] bg-white flex flex-col justify-start px-12 pt-14 pb-24 shadow-lg rounded-lg md:rounded-none">
           <h2 className="text-3xl font-extrabold text-[#232323] mb-10 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
             Only the Best
           </h2>
@@ -104,35 +104,35 @@ export default function About() {
               </div>
             </div>
           ))}
-          <button className="mt-8 border-4 border-black text-[#3376C8] font-bold px-12 py-3 bg-white shadow-[6px_6px_0_0_rgba(0,0,0,0.18)] hover:bg-[#f3f7fd] transition-all text-base tracking-widest uppercase w-max text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+          <button className="mt-8 border-4 border-black text-[#3376C8] font-bold px-12 py-3 bg-white shadow-[6px_6px_0_0_rgba(0,0,0,0.18)] hover:bg-[#f3f7fd] transition-all text-base tracking-widest uppercase w-max text-left rounded-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
             Free Quote
           </button>
         </div>
         {/* Right: Image and stats bar */}
         <div className="flex-1 flex flex-col justify-end items-stretch p-0">
-          <div className="relative w-full h-[420px]">
+          <div className="relative w-full h-[520px] md:h-[600px] rounded-lg overflow-hidden shadow-xl">
             <Image src="/about-bridge.jpg" alt="Bridge" fill className="object-cover object-center" />
             {/* Stats Bar */}
-            <div className="absolute bottom-0 left-0 w-full flex h-[80px]">
-              <div className="flex-1 flex flex-col items-center justify-center bg-[#3376C8]">
-                <div className="text-4xl font-extrabold text-white" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
-                <div className="text-xs uppercase tracking-widest text-white mt-1" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Years Established</div>
+            <div className="absolute bottom-0 left-0 w-full grid grid-cols-2 h-[100px] md:h-[110px] rounded-b-lg overflow-hidden">
+              <div className="flex flex-col items-center justify-center bg-[#3376C8] bg-opacity-95">
+                <div className="text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
+                <div className="text-xs md:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Years Established</div>
               </div>
-              <div className="flex-1 flex flex-col items-center justify-center bg-[#232323]">
-                <div className="text-4xl font-extrabold text-white" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>250</div>
-                <div className="text-xs uppercase tracking-widest text-white mt-1" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Completed Projects</div>
+              <div className="flex flex-col items-center justify-center bg-[#232323] bg-opacity-95">
+                <div className="text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>250</div>
+                <div className="text-xs md:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Completed Projects</div>
               </div>
             </div>
           </div>
-          {/* Bottom stats */}
-          <div className="w-full flex justify-between mt-8 px-2">
+          {/* Bottom stats - perfectly aligned below the stats bar */}
+          <div className="w-full grid grid-cols-2 mt-8 px-0 md:px-0">
             <div className="flex flex-col items-center">
-              <div className="text-3xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>24</div>
-              <div className="text-xs uppercase tracking-widest text-[#232323] mt-1" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Field Workers</div>
+              <div className="text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>24</div>
+              <div className="text-xs md:text-sm uppercase tracking-widest text-[#232323] mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Field Workers</div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-3xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>18</div>
-              <div className="text-xs uppercase tracking-widest text-[#232323] mt-1" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Office Staff</div>
+              <div className="text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>18</div>
+              <div className="text-xs md:text-sm uppercase tracking-widest text-[#232323] mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Office Staff</div>
             </div>
           </div>
         </div>
