@@ -21,11 +21,11 @@ export default function Services() {
             <div className="flex items-start mb-4">
               <div className="w-2 h-[60px] sm:h-[90px] bg-[#3376C8] mr-4 rounded" />
               <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.08]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-                Our Construction<br />Services
+                Our Services
               </h1>
             </div>
             <p className="text-white text-sm sm:text-base mb-4" style={{fontFamily: 'Arial, sans-serif'}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.
+            Comprehensive healthcare infrastructure solutions—from hospital construction and medical gas systems to modular OTs, ICU setups, and regulatory compliance.
             </p>
             <button className="bg-[#3376C8] text-white font-bold px-5 sm:px-7 py-3 rounded shadow hover:bg-[#2256a0] transition-all text-xs tracking-widest uppercase w-max" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Get a Free Quote</button>
           </div>
@@ -36,22 +36,22 @@ export default function Services() {
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
                 <Image src="/building-constructionw.svg" alt="Building Construction" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
-                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Construction</div>
-                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
+                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Turnkey Hospital Infrastructure Solutions</div>
+                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>From architecture to licensing—we build hospitals from the ground up.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center mb-1 sm:mb-2">
                 <Image src="/building-repairsw.svg" alt="Building Repairs" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
-                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Repairs</div>
-                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
+                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Expertise in Medical Gas Pipeline & ICU Systems</div>
+                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Specialized installation of gas systems, ICU setups, and advanced patient care units.</div>
                 </div>
               </div>
               <div className="flex items-start sm:items-center">
                 <Image src="/custom-designw.svg" alt="Custom Design" width={28} height={28} className="object-contain mt-1 sm:mt-0" />
                 <div className="flex flex-col justify-center ml-2 sm:ml-3">
-                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Custom Design</div>
-                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat.</div>
+                  <div className="text-white font-bold text-sm sm:text-base" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Modular OT & Healthcare Equipment Supply</div>
+                  <div className="text-gray-200 text-xs sm:text-xs mt-0.5" style={{fontFamily: 'Arial, sans-serif'}}>Delivering customized modular operation theatres and supplying essential medical devices.</div>
                 </div>
               </div>
             </div>
@@ -71,41 +71,26 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Building Construction Section */}
+      {/* Hospital Construction */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
           <img src="/building-construction-main.jpg" alt="Building Construction Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-            Building Construction
+            Hospital Construction
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum.
+            End-to-End Building Solutions for Healthcare Infrastructure<br/><br/>We specialize in constructing complete hospital facilities from the ground up. From initial design to final delivery, we handle every step with precision, ensuring healthcare standards and efficiency.<br/><br/>Services Include:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Lectus erat consectetur</li>
-              <li>Eu sapien eget</li>
-              <li>Rhoncus consectetur</li>
-              <li>Proin cursus</li>
-              <li>Dolor a mollis consectetur</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Risus dolor fermentum</li>
-              <li>Massa a commodo</li>
-              <li>Elit dui sit amet risus</li>
-              <li>Maecenas ornare</li>
-              <li>Nisi a tortor ultricies</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Bibendum nulla fermentum</li>
-              <li>Metus quis sodales</li>
-              <li>Tristique augue mauris</li>
-              <li>Molestie augue non</li>
-              <li>Feugiat ligula neque</li>
-            </ul>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>Hospital architectural planning & layout</li>
+            <li>Civil construction & structural works</li>
+            <li>Turnkey infrastructure execution</li>
+            <li>Interior finishing & space optimization</li>
+          </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -117,38 +102,23 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Repairs & Installations Section */}
+      {/* Modular Theatres Section */}
       <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-              Repairs & Installations
+              Modular Theatres
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum.
+          Sterile, Efficient, and Fully Equipped Surgical Spaces<br/><br/>Our Modular Operation Theatres are built with advanced technology and strict hygiene standards, ensuring optimal performance and safety in surgical environments.<br/><br/>Services Include:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Lectus erat consectetur</li>
-              <li>Eu sapien eget</li>
-              <li>Rhoncus consectetur</li>
-              <li>Proin cursus</li>
-              <li>Dolor a mollis consectetur</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Risus dolor fermentum</li>
-              <li>Massa a commodo</li>
-              <li>Elit dui sit amet risus</li>
-              <li>Maecenas ornare</li>
-              <li>Nisi a tortor ultricies</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Bibendum nulla fermentum</li>
-              <li>Metus quis sodales</li>
-              <li>Tristique augue mauris</li>
-              <li>Molestie augue non</li>
-              <li>Feugiat ligula neque</li>
-            </ul>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>Sterile wall & ceiling panel installations</li>
+            <li>Hermetically sealed automatic doors</li>
+            <li>Laminar airflow & HVAC integration</li>
+            <li>OT lighting & equipment mounting solutions</li>
+          </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -163,41 +133,26 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Custom Design Projects Section */}
+      {/* Gas Systems Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
           <img src="/custom-design-main.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-            Custom Design Projects
+            Gas Systems
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum.
+          Reliable Medical Gas Pipeline Installations<br/><br/>We design and install Medical Gas Pipeline Systems (MGPS) that ensure uninterrupted and safe delivery of essential gases like oxygen, vacuum, and compressed air.<br/><br/>Services Include:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Lectus erat consectetur</li>
-              <li>Eu sapien eget</li>
-              <li>Rhoncus consectetur</li>
-              <li>Proin cursus</li>
-              <li>Dolor a mollis consectetur</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Risus dolor fermentum</li>
-              <li>Massa a commodo</li>
-              <li>Elit dui sit amet risus</li>
-              <li>Maecenas ornare</li>
-              <li>Nisi a tortor ultricies</li>
-            </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Bibendum nulla fermentum</li>
-              <li>Metus quis sodales</li>
-              <li>Tristique augue mauris</li>
-              <li>Molestie augue non</li>
-              <li>Feugiat ligula neque</li>
-            </ul>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>Installation of oxygen, vacuum, nitrous oxide & air pipelines</li>
+            <li>Bed head units and gas outlet integration</li>
+            <li>Supply of air & vacuum plant systems</li>
+            <li>System testing, monitoring, and certification</li>
+          </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -206,6 +161,99 @@ export default function Services() {
               </button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Critical Care Section */}
+      <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            Critical Care
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+          Comprehensive ICU & Emergency Care Setup<br/><br/>We create intelligent and responsive ICU environments equipped with high-performance monitoring and support systems for critical patient care.<br/><br/>Services Include:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>ICU room layout & construction</li>
+            <li>Bed head panels & gas supply units</li>
+            <li>Patient monitoring systems installation</li>
+            <li>Emergency power & alert systems</li>
+          </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
+          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+      </section>
+
+      {/* Medical Equipment Section */}
+      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
+          <img src="/custom-design-main.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            Medical Equipment
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+            Quality Furniture & Surgical Essentials<br/><br/>We supply durable, functional, and ergonomic medical furniture and equipment that improve both patient comfort and healthcare workflow.<br/><br/>Products Include:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>ICU beds, stretchers & examination tables</li>
+            <li>Trolleys, bedside lockers & overbed tables</li>
+            <li>Surgical tools & general medical equipment</li>
+            <li>Installation of panel PCs and mounting arms</li>
+          </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Compliance Support Section */}
+      <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+              Compliance Support
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+          Expert Guidance on Healthcare Licensing & Accreditation<br/><br/>We assist hospitals and clinics in obtaining necessary licenses and certifications, ensuring compliance with national healthcare regulations and standards.<br/><br/>Services Include:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+            <li>Hospital registration & NOC application</li>
+            <li>Documentation & legal consultation</li>
+            <li>NABH & accreditation support</li>
+            <li>Compliance monitoring and audit readiness</li>
+          </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
+          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 

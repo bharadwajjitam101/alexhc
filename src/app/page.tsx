@@ -20,7 +20,7 @@ export default function Home() {
         <div className="relative z-20 flex flex-col items-center px-2 sm:px-4">
           <div className="w-10 h-1 bg-blue-500 mb-6"></div>
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Alex Healthcare System</h1>
-          <p className="text-base sm:text-lg mb-8 max-w-xl sm:max-w-2xl md:max-w-3xl px-2" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus erat consectetur eu sapien eget, rhoncus consectetur sem.</p>
+          <p className="text-base sm:text-lg mb-8 max-w-xl sm:max-w-2xl md:max-w-3xl px-2" style={{fontFamily: 'Arial, sans-serif'}}>Alex Healthcare System is your trusted partner in hospital construction and healthcare infrastructure development. From concept to commissioning, we deliver turnkey solutions tailored for hospitals, clinics, and healthcare facilities across India.</p>
           <button className="bg-[#5B9DED] text-white font-bold px-6 sm:px-10 py-3 rounded shadow hover:bg-[#4a8cdb] transition-all text-xs sm:text-sm tracking-widest uppercase" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
             <Link href="/services">View Our Work</Link>
           </button>
@@ -35,8 +35,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/building-construction.svg" alt="Building Construction Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Construction</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Hospital Construction</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For complete hospital building projects</p>
               </div>
             </div>
 
@@ -44,8 +44,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/building-repairs.svg" alt="Building Repairs Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Building Repairs</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Modular Theatres</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For Modular OT setup and surgical spaces</p>
               </div>
             </div>
 
@@ -53,8 +53,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/demolition.svg" alt="Demolition Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Demolition</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Gas Systems</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For medical gas pipeline installation and plants</p>
               </div>
             </div>
 
@@ -62,8 +62,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/foundation.svg" alt="Foundation Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Foundation</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Critical Care</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For ICU setup and monitoring infrastructure</p>
               </div>
             </div>
 
@@ -71,8 +71,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/painting-exterior.svg" alt="Painting & Exterior Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Painting & Exterior</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Medical Equipment</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For hospital furniture and surgical goods</p>
               </div>
             </div>
 
@@ -80,8 +80,8 @@ export default function Home() {
             <div className="flex items-start space-x-4">
               <Image src="/site-management.svg" alt="Site Management Icon" width={48} height={48} className="w-12 h-12 object-contain" />
               <div>
-                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Site Management</h3>
-                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat.</p>
+                <h3 className="text-xl font-bold mb-2 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Compliance Support</h3>
+                <p className="text-gray-600 text-sm" style={{fontFamily: 'Arial, sans-serif'}}>For hospital licensing and regulatory services</p>
               </div>
             </div>
           </div>
@@ -94,14 +94,14 @@ export default function Home() {
         <div className="w-full md:w-1/3 bg-[#5B9DED] flex flex-col h-auto md:h-full justify-center py-10 md:py-0">
           <div className="flex flex-col gap-y-8 sm:gap-y-12 w-full max-w-[95%] mx-auto mt-0">
             {[{
-              title: 'Eco Friendly Construction',
-              desc: 'Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.'
+              title: 'Complete Turnkey Expertise',
+              desc: 'From hospital design and construction to equipment supply and licensing, we handle everything under one roof—saving you time, cost, and hassle.'
             }, {
-              title: 'The Newest Technology Repairs',
-              desc: 'Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.'
+              title: 'Healthcare-Centric Innovation',
+              desc: 'Our solutions are designed specifically for healthcare, ensuring optimal safety, efficiency, and patient care in every project we deliver.'
             }, {
-              title: 'High Quality Construction Management',
-              desc: 'Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.'
+              title: 'Trusted by Hospitals Across Northeast India',
+              desc: 'With a proven track record and deep regional expertise, we are the preferred partner for hospitals aiming to upgrade or build from scratch.'
             }].map((item, idx) => (
               <div className="flex items-start self-start" key={item.title}>
                 <span className="mr-4 flex-shrink-0 flex items-center mt-1">
@@ -124,10 +124,10 @@ export default function Home() {
           <div className="w-12 h-1.5 bg-[#3376C8] mb-4 rounded"></div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 md:gap-x-8 gap-y-2">
             <div className="text-[#444] text-sm sm:text-base md:text-[0.98rem] leading-[1.5]" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis 
+            At Alex Healthcare System, we take pride in transforming visions into reality by delivering end-to-end healthcare infrastructure solutions. Our diverse portfolio spans across Northeast India, where we've successfully completed projects ranging from modular OTs, ICU setups, and medical gas pipeline systems to full-fledged hospital constructions from the ground up. Every project is a testament to our commitment to quality, precision, and healthcare excellence.
             </div>
             <div className="text-[#444] text-sm sm:text-base md:text-[0.98rem] leading-[1.5]" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis 
+            We have partnered with hospitals of all sizes—70 to 100+ bedded capacities—to build patient-centric environments equipped with advanced medical technology and sustainable infrastructure. Whether it's installing critical systems like oxygen and vacuum pipelines or setting up specialized OT components, we bring deep expertise and meticulous execution to every detail. Our projects speak of trust, reliability, and our unwavering mission to elevate healthcare standards.
             </div>
           </div>
         </div>
@@ -161,7 +161,7 @@ export default function Home() {
           <h2 className="text-white text-3xl sm:text-5xl md:text-6xl font-extrabold mb-4 sm:mb-8" style={{fontFamily: 'Montserrat, Arial, sans-serif', lineHeight: 1.1}}>
             We've Been Building For<br />Over 20 years
           </h2>
-          <p className="text-gray-200 text-base sm:text-2xl mb-6 sm:mb-10 max-w-xl sm:max-w-2xl md:max-w-3xl mx-auto" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus erat consectetur eu sapien eget, rhoncus consectetur sem.</p>
+          <p className="text-gray-200 text-base sm:text-2xl mb-6 sm:mb-10 max-w-xl sm:max-w-2xl md:max-w-3xl mx-auto" style={{fontFamily: 'Arial, sans-serif'}}>Built on experience and excellence, our projects reflect the reliability that healthcare providers count on year after year..</p>
           <button className="bg-[#5B9DED] text-white font-bold px-6 sm:px-10 py-2 sm:py-3 rounded shadow hover:bg-[#3376C8] transition-all text-xs sm:text-base tracking-widest uppercase" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
             <Link href="/about">About Us</Link>
           </button>
@@ -240,26 +240,30 @@ export default function Home() {
       {(() => {
         const faqs = [
           {
-            question: "Donec rutrum congue leo eget malesuada?",
+            question: "1. What services does Alex Healthcare System provide?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam. Tincidunt mauris ut quam sed mauris proin feugiat.",
+              "We offer turnkey hospital construction, medical gas pipeline systems, modular OT & ICU setups, hospital furniture, surgical equipment, licensing support, and hospital architectural design.",
           },
           {
-            question: "Vivamus suscipit tortor eget felis porttitor volutpat?",
-            answer: "Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt.",
+            question: "2. Do you provide end-to-end hospital project execution?",
+            answer:
+              "Yes, we specialize in complete project management—from planning and design to construction, equipment installation, and regulatory compliance.",
           },
           {
-            question: "Curabitur non nulla sit amet nisl tempus?",
-            answer: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
+            question: "3. Where do you operate?",
+            answer:
+              "Our primary operations are based in Northeast India, with a growing presence across multiple states.",
           },
           {
-            question: "Pellentesque in ipsum id orci porta dapibus?",
-            answer: "Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus.",
+            question: "4. Are your products certified and compliant?",
+            answer:
+              "Yes, all our medical devices and infrastructure solutions comply with industry standards and are sourced from certified manufacturers.",
           },
           {
-            question: "Curabitur non nulla sit amet nisl?",
-            answer: "Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.",
-          },
+            question: "5. How do I get started with a project?",
+            answer:
+              "You can reach us via our contact form, phone, or email. Our team will guide you through a consultation and project evaluation process.",
+          }
         ];
         const [openIndex, setOpenIndex] = React.useState(0);
         return (
@@ -267,11 +271,11 @@ export default function Home() {
             {/* Left: Heading, text, button */}
             <div className="flex flex-col justify-center items-start w-full lg:w-[40%] max-w-xl px-4 sm:px-10 md:px-16 py-8 lg:py-0 mx-auto lg:mx-0">
               <h2 className="text-3xl sm:text-5xl font-extrabold mb-6 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif', lineHeight: 1.1}}>
-                Let's Build<br />Something<br />Together
+                Let's Build<br />the Future of Healthcare<br />Together
               </h2>
               <div className="w-10 h-1 bg-[#E6E6E6] mb-6"></div>
               <p className="text-[#888] text-base sm:text-lg mb-10 max-w-md text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam. Tincidunt mauris ut quam sed mauris proin feugiat.
+              Whether you're planning a new hospital or upgrading your current facility, we’re here to help.
               </p>
               <button className="bg-white border-2 border-[#BFD8F6] text-[#3376C8] font-bold px-8 py-4 text-base rounded shadow-md hover:bg-[#F3F7FD] transition-all tracking-widest uppercase" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em', boxShadow: '4px 8px 16px 0 rgba(0,0,0,0.08)'}}>
                 <Link href="/contact">Get In Touch</Link>
