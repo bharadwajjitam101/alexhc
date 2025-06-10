@@ -56,9 +56,9 @@ export default function Footer() {
         {/* Contact Box + Social Icons */}
         <div className="flex flex-col items-center md:items-end md:w-[280px] min-w-[280px] justify-center mt-0 md:mt-0">
           <div className="bg-[#5B9DED] rounded-[60px_0_60px_0] px-8 py-6 text-center w-full flex flex-col items-center" style={{borderRadius: '60px 0 60px 0'}}>
-            <div className="text-black text-[0.9rem] mb-2 font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>1-800-660-0464</div>
-            <div className="text-[#FF6B57] text-[0.9rem] mb-2 font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>support@rubel.bd</div>
-            <div className="text-black text-[0.85rem] leading-tight font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>900-140 10th Avenue Se<br/>Calgary, AB T2G 0R1</div>
+            <div className="text-black text-[0.9rem] mb-2 font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>+91 7002394679</div>
+            <div className="text-[#FFFFFF] text-[0.9rem] mb-2 font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>alexhealthcare10@gmail.com</div>
+            <div className="text-black text-[0.85rem] leading-tight font-bold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Alex Healthcare System House No. 06, Jayanagar Road, Six Mile, Guwahati, Assam – 781022</div>
           </div>
           {/* Social Icons below the contact box */}
           <div className="flex space-x-8 mt-4 md:justify-end w-full">
