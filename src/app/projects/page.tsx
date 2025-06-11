@@ -21,11 +21,11 @@ export default function Projects() {
           <div className="flex items-start mb-4">
             <div className="w-2 h-[40px] sm:h-[60px] bg-white mr-3 sm:mr-5 rounded" />
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.08]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-              Our Construction<br />Projects
+              Our Projects
             </h1>
           </div>
           <p className="text-white text-sm sm:text-base md:text-lg" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.
+            From hospitals to critical care units, our projects reflect innovation, precision, and trust in healthcare infrastructure.
           </p>
         </div>
       </section>
