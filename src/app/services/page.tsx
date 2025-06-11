@@ -8,7 +8,7 @@ export default function Services() {
       {/* Hero/Carousel Section */}
       <section className="relative w-full h-[600px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
         <Image
-          src="/building-bg.jpg"
+          src="/services-carousel.jpg"
           alt="Services Carousel"
           fill
           className="object-cover object-center z-0"
@@ -74,7 +74,7 @@ export default function Services() {
       {/* Hospital Construction */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/building-construction-main.jpg" alt="Building Construction Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/hospital-construction-main.jpg" alt="Building Construction Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -129,14 +129,14 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Modular-ot.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
       {/* Gas Systems Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/custom-design-main.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/gas-systems.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -191,14 +191,14 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/critical-care.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
       {/* Medical Equipment Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/custom-design-main.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/medical-equipment.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -253,7 +253,7 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/repairs-main.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/compliance-support.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 

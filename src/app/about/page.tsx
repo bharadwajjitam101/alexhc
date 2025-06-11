@@ -7,7 +7,7 @@ export default function About() {
       {/* Hero/Carousel Section */}
       <section className="relative w-full h-[600px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
         <Image
-          src="/about-carousel.jpg" // Use your actual carousel image path
+          src="/aboutus-carousel.jpg" // Use your actual carousel image path
           alt="About Carousel"
           fill
           className="object-cover object-center z-0"
@@ -112,18 +112,19 @@ export default function About() {
         </div>
         {/* Right: Image and stats bar */}
         <div className="flex-1 flex flex-col justify-end items-stretch p-0">
+          {/* Image container */}
           <div className="relative w-full h-[320px] sm:h-[520px] md:h-[600px] rounded-lg overflow-hidden shadow-xl">
-            <Image src="/about-bridge.jpg" alt="Bridge" fill className="object-cover object-center" />
-            {/* Stats Bar */}
-            <div className="absolute bottom-0 left-0 w-full grid grid-cols-2 h-[70px] sm:h-[100px] md:h-[110px] rounded-b-lg overflow-hidden">
-              <div className="flex flex-col items-center justify-center bg-[#3376C8] bg-opacity-95">
-                <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
-                <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Years Established</div>
-              </div>
-              <div className="flex flex-col items-center justify-center bg-[#232323] bg-opacity-95">
-                <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>250</div>
-                <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Completed Projects</div>
-              </div>
+            <Image src="/aboutus-down.jpg" alt="Bridge" fill className="object-cover object-top" />
+          </div>
+          {/* Stats Bar - moved outside the image container */}
+          <div className="w-full grid grid-cols-2 h-[70px] sm:h-[100px] md:h-[110px] rounded-b-lg overflow-hidden">
+            <div className="flex flex-col items-center justify-center bg-[#3376C8] bg-opacity-95">
+              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
+              <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Years Established</div>
+            </div>
+            <div className="flex flex-col items-center justify-center bg-[#232323] bg-opacity-95">
+              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>250</div>
+              <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Completed Projects</div>
             </div>
           </div>
           {/* Bottom stats - perfectly aligned below the stats bar */}

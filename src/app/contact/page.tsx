@@ -77,7 +77,7 @@ export default function Contact() {
         {/* Left: Background image with overlay and content */}
         <div className="relative flex-1 flex items-center min-h-[260px]">
           <Image
-            src="/contact-bg.jpg" // Replace with your actual image path
+            src="/contactus-bg.jpg" // Replace with your actual image path
             alt="Construction Site"
             fill
             className="object-cover object-center z-0"
