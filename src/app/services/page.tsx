@@ -8,7 +8,7 @@ export default function Services() {
       {/* Hero/Carousel Section */}
       <section className="relative w-full h-[600px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
         <Image
-          src="/services-carousel.jpg"
+          src="/servicess-carousel.jpg"
           alt="Services Carousel"
           fill
           className="object-cover object-center z-0"

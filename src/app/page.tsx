@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] flex items-center justify-center text-center text-white">
         <Image
-          src="/hero-bg.jpg" // Placeholder: Replace with actual hero image path
+          src="/heroa-bg.jpg" // Placeholder: Replace with actual hero image path
           alt="Alex Healthcare System Hero Background"
           fill
           className="object-cover object-center z-0"
@@ -149,7 +149,7 @@ export default function Home() {
       {/* Building Experience Section */}
       <section className="relative w-full h-[350px] sm:h-[500px] md:h-[650px] flex items-center justify-center text-center">
           <Image
-          src="/building-bg.jpg" // Replace with your actual image path
+          src="/buildings-bg.jpg" // Replace with your actual image path
           alt="Building Experience Background"
           fill
           className="object-cover object-center z-0"

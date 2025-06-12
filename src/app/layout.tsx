@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Company Name",
-  description: "Your company description goes here",
+  title: "Alex Healthcare System",
+  description: "Alex Healthcare System is your trusted partner in hospital construction and healthcare infrastructure development",
 };
 
 export default function RootLayout({
