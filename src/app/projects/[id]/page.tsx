@@ -10,6 +10,7 @@ type Project = {
   client: string;
   type: string;
   heroImg: string;
+  description: string;
   about: {
     desc: string;
     bullets: string[];
@@ -17,6 +18,8 @@ type Project = {
   };
   images: string[];
   descBlocks: { img: string; text: string }[];
+  actualWorkTitle?: string;
+  actualWorkDesc?: string;
 };
 
 export default function ProjectDetail() {
@@ -24,13 +27,15 @@ export default function ProjectDetail() {
   const router = useRouter();
   const [project, setProject] = useState<Project | null>(null);
   const [loading, setLoading] = useState(true);
+  const [allProjects, setAllProjects] = useState<Project[]>([]);
 
   useEffect(() => {
     async function fetchProject() {
       const res = await fetch("/projects.json");
-      const data: any[] = await res.json();
+      const data: Project[] = await res.json();
       const proj = data.find((p: any) => String(p.id) === String(id));
-      setProject(proj);
+      setProject(proj || null);
+      setAllProjects(data);
       setLoading(false);
     }
     fetchProject();
@@ -58,9 +63,19 @@ export default function ProjectDetail() {
               {project.title}
             </h1>
           </div>
-          <p className="text-white text-sm sm:text-base md:text-lg" style={{fontFamily: 'Arial, sans-serif'}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis egestas pellentesque libero dolor in diam consequat ut.
-          </p>
+          {/* New Actual Work Section */}
+          {project.actualWorkTitle && (
+            <div className="mb-2">
+              <h2 className="text-xl sm:text-2xl font-bold text-white" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+                {project.actualWorkTitle}
+              </h2>
+              {project.actualWorkDesc && (
+                <p className="text-white text-sm sm:text-base mt-1" style={{fontFamily: 'Arial, sans-serif'}}>
+                  {project.actualWorkDesc}
+                </p>
+              )}
+            </div>
+          )}
         </div>
         {/* Project Info: Responsive */}
         <div>
@@ -84,7 +99,7 @@ export default function ProjectDetail() {
         <div className="max-w-5xl mx-auto px-2 sm:px-4 flex flex-col md:flex-row gap-8 items-start">
           <div className="flex-1">
             <h2 className="text-2xl sm:text-3xl font-extrabold mb-4 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>About this Project</h2>
-            <p className="mb-4 text-gray-700" style={{fontFamily: 'Arial, sans-serif'}}>{project.about.desc}</p>
+            <p className="mb-4 text-gray-700 text-justify" style={{fontFamily: 'Arial, sans-serif'}}>{project.about.desc}</p>
             <ul className="list-disc pl-5 text-gray-700 mb-4">
               {project.about.bullets.map((b: string, i: number) => <li key={i}>{b}</li>)}
             </ul>
@@ -118,20 +133,20 @@ export default function ProjectDetail() {
         </div>
       </section>
 
-      {/* Latest Projects Carousel Placeholder */}
+      {/* Latest Projects Section */}
       <section className="w-full py-12 bg-[#F7F7F7]">
         <div className="max-w-7xl mx-auto px-2 sm:px-4">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-[#232323] text-center mb-8" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Latest Projects</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-8 sm:gap-y-14 justify-center">
-            {project.images.map((img: string, idx: number) => (
-              <div key={idx} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
+            {allProjects.filter(p => String(p.id) !== String(id)).slice(0, 3).map((proj) => (
+              <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[140px] relative">
-                  <Image src={img} alt="Project" fill className="object-cover object-center" />
+                  <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
-                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Service Title</div>
-                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et euismod bibendum adipiscing et orci, fermentum.</div>
-                  <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                  <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
+                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-justify leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.description}</div>
+                  <button onClick={() => router.push(`/projects/${proj.id}`)} className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
                     Learn More
                   </button>
                 </div>

@@ -21,11 +21,11 @@ export default function Services() {
             <div className="flex items-start mb-4">
               <div className="w-2 h-[60px] sm:h-[90px] bg-[#3376C8] mr-4 rounded" />
               <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.08]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-                Our Services
+                Alex Healthcare System - Our Services
               </h1>
             </div>
             <p className="text-white text-sm sm:text-base mb-4" style={{fontFamily: 'Arial, sans-serif'}}>
-            Comprehensive healthcare infrastructure solutions—from hospital construction and medical gas systems to modular OTs, ICU setups, and regulatory compliance.
+              At Alex Healthcare System, we specialize in comprehensive Hospital Consultancy and Infrastructure Development. Our service verticals span across every stage of a healthcare facility's lifecycle — from ideation and design to execution and post-construction optimization. Below is a detailed overview of our core services:
             </p>
             <button className="bg-[#3376C8] text-white font-bold px-5 sm:px-7 py-3 rounded shadow hover:bg-[#2256a0] transition-all text-xs tracking-widest uppercase w-max" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Get a Free Quote</button>
           </div>
@@ -82,14 +82,15 @@ export default function Services() {
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-            End-to-End Building Solutions for Healthcare Infrastructure<br/><br/>We specialize in constructing complete hospital facilities from the ground up. From initial design to final delivery, we handle every step with precision, ensuring healthcare standards and efficiency.<br/><br/>Services Include:
+            We guide hospitals from concept to commissioning with expert consultancy tailored to individual project needs.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
           <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>Hospital architectural planning & layout</li>
-            <li>Civil construction & structural works</li>
-            <li>Turnkey infrastructure execution</li>
-            <li>Interior finishing & space optimization</li>
+          <li>Initial Planning & Feasibility Studies</li>
+          <li>Site Selection & Regulatory Approvals</li>
+          <li>Budgeting & Financial Planning</li>
+          <li>Needs Assessment (bed capacity, services, etc.)</li>
+          <li>Strategic Planning and Market Positioning</li>
           </ul>
           </div>
           <div className="w-full flex justify-center">
@@ -102,23 +103,23 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Modular Theatres Section */}
+      {/* Facility Planning & Architecture Section */}
       <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-              Modular Theatres
+            Facility Planning & Architecture
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-          Sterile, Efficient, and Fully Equipped Surgical Spaces<br/><br/>Our Modular Operation Theatres are built with advanced technology and strict hygiene standards, ensuring optimal performance and safety in surgical environments.<br/><br/>Services Include:
+            We provide specialized healthcare architecture and design solutions to ensure seamless functionality and patient comfort.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>Sterile wall & ceiling panel installations</li>
-            <li>Hermetically sealed automatic doors</li>
-            <li>Laminar airflow & HVAC integration</li>
-            <li>OT lighting & equipment mounting solutions</li>
-          </ul>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Department-wise Layout Design (ICUs, OTs, ERs, etc.)</li>
+              <li>Sustainable & Green Hospital Design</li>
+              <li>Technology Integration (Smart Hospital Features)</li>
+              <li>Aesthetic Enhancements & Patient-Centric Design</li>
+            </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -129,30 +130,30 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/Modular-ot.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/facility-planning.jpg" alt="Facility Planning Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
-      {/* Gas Systems Section */}
+      {/* Hospital Construction & Turnkey Execution Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/gas-systems.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/turnkey-execution.jpg" alt="Turnkey Execution Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-            Gas Systems
+            Hospital Construction & Turnkey Execution
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-          Reliable Medical Gas Pipeline Installations<br/><br/>We design and install Medical Gas Pipeline Systems (MGPS) that ensure uninterrupted and safe delivery of essential gases like oxygen, vacuum, and compressed air.<br/><br/>Services Include:
+            From the ground up, we execute full-scale hospital construction projects with precision, ensuring timely delivery and quality.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>Installation of oxygen, vacuum, nitrous oxide & air pipelines</li>
-            <li>Bed head units and gas outlet integration</li>
-            <li>Supply of air & vacuum plant systems</li>
-            <li>System testing, monitoring, and certification</li>
-          </ul>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Civil and Structural Engineering</li>
+              <li>Project Management & Safety Compliance</li>
+              <li>Material Sourcing & Technology Deployment</li>
+              <li>Timeline Monitoring & Phase Execution</li>
+            </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -164,23 +165,23 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Critical Care Section */}
+      {/* Engineering & Infrastructure Systems Section */}
       <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-            Critical Care
+            Engineering & Infrastructure Systems
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-          Comprehensive ICU & Emergency Care Setup<br/><br/>We create intelligent and responsive ICU environments equipped with high-performance monitoring and support systems for critical patient care.<br/><br/>Services Include:
+            We handle the complete technical backbone of hospitals, ensuring performance, safety, and compliance.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>ICU room layout & construction</li>
-            <li>Bed head panels & gas supply units</li>
-            <li>Patient monitoring systems installation</li>
-            <li>Emergency power & alert systems</li>
-          </ul>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>HVAC Systems and Air Quality Management</li>
+              <li>Electrical and Backup Power Systems</li>
+              <li>Plumbing and Medical Gas Pipelines</li>
+              <li>IT Infrastructure and Data Systems</li>
+            </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -191,30 +192,30 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/critical-care.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/engineering-infrastructure.jpg" alt="Engineering Infrastructure Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
-      {/* Medical Equipment Section */}
+      {/* Operational & Strategic Consulting Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/medical-equipment.jpg" alt="Custom Design Projects Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/operational-consulting.jpg" alt="Operational Consulting Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-            Medical Equipment
+            Operational & Strategic Consulting
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-            Quality Furniture & Surgical Essentials<br/><br/>We supply durable, functional, and ergonomic medical furniture and equipment that improve both patient comfort and healthcare workflow.<br/><br/>Products Include:
+            We help hospitals run efficiently by optimizing every aspect of operations and planning.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>ICU beds, stretchers & examination tables</li>
-            <li>Trolleys, bedside lockers & overbed tables</li>
-            <li>Surgical tools & general medical equipment</li>
-            <li>Installation of panel PCs and mounting arms</li>
-          </ul>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Operational Efficiency & Workflow Design</li>
+              <li>Human Resources Planning & Staff Development</li>
+              <li>Financial Management & Revenue Cycle Strategy</li>
+              <li>Quality Improvement & Accreditation Support (NABH, etc.)</li>
+            </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -226,23 +227,23 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Compliance Support Section */}
+      {/* Medical Equipment Planning & Procurement Section */}
       <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
-              Compliance Support
+            Medical Equipment Planning & Procurement
           </h3>
           <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
           <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
-          Expert Guidance on Healthcare Licensing & Accreditation<br/><br/>We assist hospitals and clinics in obtaining necessary licenses and certifications, ensuring compliance with national healthcare regulations and standards.<br/><br/>Services Include:
+            We offer full support in selecting, sourcing, and integrating hospital equipment tailored to functional requirements.<br/><br/>Key Services:
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
-          <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
-            <li>Hospital registration & NOC application</li>
-            <li>Documentation & legal consultation</li>
-            <li>NABH & accreditation support</li>
-            <li>Compliance monitoring and audit readiness</li>
-          </ul>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>ICU & OT Equipment</li>
+              <li>Patient Beds, Furniture, and Fixtures</li>
+              <li>Surgical Instruments & Monitoring Systems</li>
+              <li>Equipment Layout, Installation, and Testing</li>
+            </ul>
           </div>
           <div className="w-full flex justify-center">
             <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
@@ -253,7 +254,68 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/compliance-support.jpg" alt="Repairs & Installations Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/equipment-planning.jpg" alt="Equipment Planning Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+      </section>
+
+      {/* Technology & Digital Transformation Section */}
+      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
+          <img src="/digital-transformation.jpg" alt="Digital Transformation Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            Technology & Digital Transformation
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+            We guide digital adoption in healthcare facilities to modernize operations and improve patient outcomes.<br/><br/>Key Services:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Hospital Information System (HIS) Deployment</li>
+              <li>Electronic Health Records (EHR) Setup</li>
+              <li>Telemedicine and Patient Portals</li>
+              <li>Digital Monitoring and Automation Systems</li>
+            </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Marketing & Patient Engagement Section */}
+      <section className="w-full py-10 flex flex-col-reverse md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="bg-white max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            Marketing & Patient Engagement
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+            Helping hospitals build trust and attract patients through strategic branding and outreach.<br/><br/>Key Services:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Marketing Strategy & Branding Support</li>
+              <li>Digital Presence and Awareness Campaigns</li>
+              <li>Patient Engagement Tools & Feedback Systems</li>
+            </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
+          <img src="/marketing-engagement.jpg" alt="Marketing Engagement Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
@@ -272,7 +334,7 @@ export default function Services() {
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
                   <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
-                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.about.desc}</div>
+                  <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-left leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.description}</div>
                   <Link href={`/projects/${proj.id}`}>
                     <button className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
                       Learn More

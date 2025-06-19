@@ -1,19 +1,22 @@
 [
   {
     "id": 0,
-    "title": "Building Construction Main",
+    "title": "Star Hospital, Hojai",
     "date": "12 April 2018",
     "client": "Monarch Group",
     "type": "Building Renovation",
     "heroImg": "/building-construction-main.jpg",
+    "description": "Complete Medical Gas Pipeline Installation including Air & Vacuum Plants. Fully equipped with modern ICU systems and 70-bed capacity. Delivered with optimal safety and operational efficiency.",
+    "actualWorkTitle": "Medical Gas Pipeline Installation at Star Hospital",
+    "actualWorkDesc": "Complete Medical Gas Pipeline Installation including Air & Vacuum Plants. Fully equipped with modern ICU systems and 70-bed capacity.Delivered with optimal safety and operational efficiency.",
     "about": {
-      "desc": "fbehrbhveLectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus.",
+      "desc": "Project Scope:",
       "bullets": [
-        "Maecenas ornare nisl",
-        "A tortor ultricies bibendum",
-        "Nulla fermentum",
-        "Metus quis",
-        "Sodales tristique"
+      "70-bed capacity multi-speciality hospital",
+      "Installation of oxygen, medical air, and vacuum pipelines",
+      "Integrated plant room with vacuum & air compressors",
+      "Smart supervision system for regulation and safety",
+      "Completed within stipulated timelines"
       ],
       "img": "/custom-design-main.jpg"
     },
@@ -25,29 +28,32 @@
     "descBlocks": [
       {
         "img": "/building-construction-main.jpg",
-        "text": "ejnvenvurLorem ipsum dolor sit amet consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis."
+        "text": "Alex Healthcare System carried out a full-scale Medical Gas Pipeline System (MGPS) installation at Star Hospital, Hojai. This included end-to-end engineering, from pipeline layout planning to final plant commissioning."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "ejvjervjeLectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas ornare nisl a tortor ultricies bibendum. Nulla fermentum, metus quis sodales tristique, augue mauris molestie augue, non feugiat ligula neque nec felis."
+        "text": "The project ensured consistent, safe delivery of life-supporting gases across all departments, contributing to enhanced critical care efficiency and hospital readiness."
       }
     ]
   },
   {
     "id": 1,
-    "title": "Repairs & Installations Main",
+    "title": "Kapili Hospital, Assam",
     "date": "22 June 2019",
     "client": "Skyline Builders",
     "type": "Repairs & Installations",
     "heroImg": "/repairs-main.jpg",
+    "description": "Full-scale gas pipeline project completed with precision engineering. Customized for effective medical utility distribution. Designed for scalability and long-term performance.",
+    "actualWorkTitle": "Custom Medical Pipeline Setup at Kapili Hospital",
+    "actualWorkDesc": "Full-scale gas pipeline project completed with precision engineering. Customized for effective medical utility distribution. Designed for scalability and long-term performance.",
     "about": {
-      "desc": "jvenvjenjuvSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "desc": "Project Scope:",
       "bullets": [
-        "jiatm bh Ut enim ad minima veniam",
-        "Quis nostrum exercitationem",
-        "vjbejvbjeUllam corporis suscipit",
-        "Laboriosam nisi ut aliquid",
-        "Ex ea commodi consequatur"
+      "Centralized oxygen, suction, and compressed air pipeline system",
+      "Tailored layout for ICU and OT utility access",
+      "Modular bed panels with outlet fittings",
+      "Central plant room with safety tests passed",
+      "Ready for operational scalability"
       ],
       "img": "/repairs-main.jpg"
     },
@@ -59,29 +65,32 @@
     "descBlocks": [
       {
         "img": "/repairs-main.jpg",
-        "text": "kvejbvjevSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        "text": "This project included the complete medical gas pipeline infrastructure for Kapili Hospital. Alex Healthcare delivered a robust pipeline network tailored to the hospital’s unique layout and workflow."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "jvkebrjvbeNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+        "text": "Designed for ease of maintenance and long-term functionality, the setup supports a broad range of medical utilities with minimal interruption and full compliance."
       }
     ]
   },
   {
     "id": 2,
-    "title": "Custom Design Projects Main",
+    "title": "Health Planet Hospital (Islam Sir)",
     "date": "5 March 2020",
     "client": "Creative Spaces",
     "type": "Custom Design",
     "heroImg": "/custom-design-main.jpg",
+    "description": "Commissioned one Major OT, 3 Semi-OTs, and 2 Minor OTs. Total bed capacity: 93 units. End-to-end project execution Focused on sterile, high-efficiency surgical environments.",
+    "actualWorkTitle": "Modular OT & Bed Setup at Health Planet Hospital",
+    "actualWorkDesc": "Commissioned one Major OT, 3 Semi-OTs, and 2 Minor OTs. Total bed capacity: 93 units. End-to-end project execution Focused on sterile, high-efficiency surgical environments.",
     "about": {
-      "desc": "vjebvhjeUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+      "desc": "Project Scope:",
       "bullets": [
-        "JitamQuis autem vel eum iure",
-        "Reprehenderit qui in ea",
-        "vekjbvjkevVoluptate velit esse quam",
-        "Nihil molestiae consequatur",
-        "Vel illum qui dolorem"
+      "1 Major OT, 3 Semi-OTs, and 2 Minor OTs installed",
+      "Modular panel systems for sterile environments",
+      "Full medical gas supply integration",
+      "93 beds outfitted across departments",
+      "Seamless OT-to-ward workflow supported"
       ],
       "img": "/building-construction-main.jpg"
     },
@@ -93,29 +102,33 @@
     "descBlocks": [
       {
         "img": "/custom-design-main.jpg",
-        "text": "vkjebjvebvUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur."
+        "text": "Alex Healthcare executed one of its flagship modular OT projects at Health Planet Hospital. The surgical spaces were customized for safety, sterility, and smart space optimization."
+
       },
       {
         "img": "/building-construction-main.jpg",
-        "text": "vejkbvjebvVel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti."
+        "text": "Alongside OT setups, patient beds were integrated with medical utilities ensuring readiness for day-to-day operations across wards."
       }
     ]
   },
   {
     "id": 3,
-    "title": "Bridge Construction",
+    "title": "Various ICU Upgrades",
     "date": "10 July 2021",
     "client": "City Infrastructure",
     "type": "Bridge Construction",
     "heroImg": "/about-bridge.jpg",
+    "description": "Modular ICU components installed across multiple locations. Includes Bed Head Panels, Medical Panel PCs, and Support Beams. Enabled critical care infrastructure modernization.",
+    "actualWorkTitle": "Modular ICU Components Installation at Various Hospitals",
+    "actualWorkDesc": "Modular ICU components installed across multiple locations. Includes Bed Head Panels, Medical Panel PCs, and Support Beams. Enabled critical care infrastructure modernization.",
     "about": {
-      "desc": "Specializing in modern bridge construction for urban and rural development, ensuring safety and durability.",
+      "desc": "Project Scope:",
       "bullets": [
-        "Steel and concrete bridges",
-        "Advanced engineering",
-        "Long-span solutions",
-        "Sustainable materials",
-        "On-time delivery"
+      "Bed Head Panels with utility connections",
+      "Medical Panel PCs and support beams installed",
+      "Streamlined ICU layouts with gas and electrical outlets",
+      "Coordinated with civil and interior works",
+      "Delivered for multiple hospitals in Assam and Bihar"
       ],
       "img": "/about-bridge.jpg"
     },
@@ -127,29 +140,32 @@
     "descBlocks": [
       {
         "img": "/about-bridge.jpg",
-        "text": "Our bridge construction projects utilize the latest engineering techniques and materials to ensure longevity and safety for all users."
+        "text": "Alex Healthcare carried out modular installations for ICUs across several hospitals, focusing on functionality, layout flexibility, and 24/7 support systems."
       },
       {
         "img": "/building-construction-main.jpg",
-        "text": "We work closely with city planners and engineers to deliver bridges that meet the highest standards of quality and design."
+        "text": "The result was smarter ICU environments with better staff accessibility, patient support, and efficient infrastructure deployment."
       }
     ]
   },
   {
     "id": 4,
-    "title": "Commercial Renovation",
+    "title": "Vacuum Pump Installations",
     "date": "18 September 2022",
     "client": "Downtown Business Center",
     "type": "Renovation",
     "heroImg": "/about-carousel.jpg",
+    "description": "Before-and-after demo of vacuum systems in live hospital setups. Fully monitored and tested for performance and safety. Includes smart monitoring integration.",
+    "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
+    "actualWorkDesc": "Demonstrated and installed vacuum systems with smart monitoring in live hospital setups.",
     "about": {
-      "desc": "Transforming commercial spaces with innovative renovation solutions for modern businesses.",
+      "desc": "Project Scope:",
       "bullets": [
-        "Office upgrades",
-        "Retail space redesign",
-        "Energy-efficient improvements",
-        "Minimal disruption",
-        "Custom finishes"
+      "MGPS (Medical Gas Pipeline System) installation for hospitals",
+      "Fire Management Systems set up to meet government NOC requirements",
+      "Vacuum pump systems and central plant room integration",
+      "Pre- and post-installation inspections",
+      "Services provided in Assam, North East India, and Bihar"
       ],
       "img": "/about-carousel.jpg"
     },
@@ -161,249 +177,11 @@
     "descBlocks": [
       {
         "img": "/about-carousel.jpg",
-        "text": "Our team specializes in commercial renovations that enhance productivity and appeal for businesses of all sizes."
+        "text": "Alex Healthcare is a trusted partner in deploying compliant and efficient MGPS and fire safety infrastructure across healthcare facilities. From planning to implementation, every detail is aligned with regulatory standards."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "We deliver projects on time and within budget, with a focus on quality and client satisfaction."
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Residential Remodeling",
-    "date": "2 February 2023",
-    "client": "Greenfield Homes",
-    "type": "Remodeling",
-    "heroImg": "/contact-bg.jpg",
-    "about": {
-      "desc": "High-quality residential remodeling to enhance comfort, value, and style in every home.",
-      "bullets": [
-        "Kitchen and bath upgrades",
-        "Open concept living",
-        "Energy-saving solutions",
-        "Modern finishes",
-        "Personalized design"
-      ],
-      "img": "/contact-bg.jpg"
-    },
-    "images": [
-      "/contact-bg.jpg",
-      "/building-bg.jpg",
-      "/custom-design-main.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/contact-bg.jpg",
-        "text": "We turn your vision into reality with expert remodeling services tailored to your needs."
-      },
-      {
-        "img": "/building-bg.jpg",
-        "text": "From concept to completion, our team ensures a smooth and satisfying remodeling experience."
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Industrial Projects",
-    "date": "15 May 2022",
-    "client": "Mega Industries",
-    "type": "Industrial Construction",
-    "heroImg": "/hero-bg.jpg",
-    "about": {
-      "desc": "Comprehensive industrial construction and maintenance services for factories and warehouses.",
-      "bullets": [
-        "Large-scale builds",
-        "Heavy equipment installation",
-        "Safety compliance",
-        "Ongoing maintenance",
-        "Custom solutions"
-      ],
-      "img": "/hero-bg.jpg"
-    },
-    "images": [
-      "/hero-bg.jpg",
-      "/repairs-main.jpg",
-      "/building-construction-main.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/hero-bg.jpg",
-        "text": "Our industrial projects are built to last, with a focus on efficiency and safety."
-      },
-      {
-        "img": "/repairs-main.jpg",
-        "text": "We provide ongoing support and maintenance to keep your operations running smoothly."
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Green Building Solutions",
-    "date": "28 August 2021",
-    "client": "EcoBuild Corp",
-    "type": "Sustainable Construction",
-    "heroImg": "/building-bg.jpg",
-    "about": {
-      "desc": "Sustainable and eco-friendly building solutions for a greener future.",
-      "bullets": [
-        "LEED-certified projects",
-        "Renewable materials",
-        "Energy-efficient systems",
-        "Low carbon footprint",
-        "Healthy indoor environments"
-      ],
-      "img": "/building-bg.jpg"
-    },
-    "images": [
-      "/building-bg.jpg",
-      "/contact-bg.jpg",
-      "/custom-design-main.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/building-bg.jpg",
-        "text": "We are committed to building sustainable structures that benefit both people and the planet."
-      },
-      {
-        "img": "/contact-bg.jpg",
-        "text": "Our green building solutions help clients achieve their environmental goals."
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "title": "Interior Design",
-    "date": "12 November 2022",
-    "client": "Modern Living",
-    "type": "Interior Design",
-    "heroImg": "/alex.png",
-    "about": {
-      "desc": "Creative and functional interior design for homes and offices, tailored to your style.",
-      "bullets": [
-        "Space planning",
-        "Color consultation",
-        "Furniture selection",
-        "Lighting design",
-        "Custom decor"
-      ],
-      "img": "/alex.png"
-    },
-    "images": [
-      "/alex.png",
-      "/about-carousel.jpg",
-      "/custom-design-main.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/alex.png",
-        "text": "Our interior design team creates beautiful, functional spaces that reflect your personality."
-      },
-      {
-        "img": "/about-carousel.jpg",
-        "text": "We work with you every step of the way to ensure your vision comes to life."
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "title": "Exterior Facade Upgrades",
-    "date": "3 March 2023",
-    "client": "Urban Renewal",
-    "type": "Facade Upgrade",
-    "heroImg": "/alexBW 1.svg",
-    "about": {
-      "desc": "Modernizing building exteriors with innovative facade upgrades for lasting appeal.",
-      "bullets": [
-        "Contemporary materials",
-        "Weather resistance",
-        "Energy efficiency",
-        "Architectural lighting",
-        "Custom finishes"
-      ],
-      "img": "/alexBW 1.svg"
-    },
-    "images": [
-      "/alexBW 1.svg",
-      "/window.svg",
-      "/building-bg.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/alexBW 1.svg",
-        "text": "Our facade upgrades enhance curb appeal and property value for all types of buildings."
-      },
-      {
-        "img": "/window.svg",
-        "text": "We use durable, modern materials to ensure long-lasting results."
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Window & Door Installations",
-    "date": "20 June 2022",
-    "client": "Home Solutions",
-    "type": "Installations",
-    "heroImg": "/window.svg",
-    "about": {
-      "desc": "Professional installation of windows and doors for residential and commercial properties.",
-      "bullets": [
-        "Energy-efficient windows",
-        "Secure doors",
-        "Custom sizing",
-        "Quick installation",
-        "Warranty included"
-      ],
-      "img": "/window.svg"
-    },
-    "images": [
-      "/window.svg",
-      "/alex.png",
-      "/building-construction-main.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/window.svg",
-        "text": "We offer a wide range of window and door options to fit any style and budget."
-      },
-      {
-        "img": "/alex.png",
-        "text": "Our experienced team ensures a perfect fit and finish every time."
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Global Construction Projects",
-    "date": "8 December 2021",
-    "client": "International Ventures",
-    "type": "Global Projects",
-    "heroImg": "/globe.svg",
-    "about": {
-      "desc": "Managing and executing construction projects worldwide with expertise and reliability.",
-      "bullets": [
-        "International standards",
-        "Multinational teams",
-        "Remote site management",
-        "Cultural sensitivity",
-        "Turnkey solutions"
-      ],
-      "img": "/globe.svg"
-    },
-    "images": [
-      "/globe.svg",
-      "/about-bridge.jpg",
-      "/hero-bg.jpg"
-    ],
-    "descBlocks": [
-      {
-        "img": "/globe.svg",
-        "text": "Our global projects are managed with precision and care, no matter the location."
-      },
-      {
-        "img": "/about-bridge.jpg",
-        "text": "We adapt to local regulations and cultures to deliver successful outcomes worldwide."
+        "text": "Our solutions not only enable smooth hospital operations but also support institutions in acquiring necessary government clearances like Fire Fighting NOC."
       }
     ]
   }
