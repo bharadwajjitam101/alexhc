@@ -47,7 +47,7 @@ export default function ProjectDetail() {
   return (
     <div className="min-h-screen w-full bg-white">
       {/* Hero Section */}
-      <section className="relative w-full h-[260px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
+      <section className="relative w-full h-[320px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
         <Image
           src={project.heroImg}
           alt="Project Hero"
@@ -56,8 +56,8 @@ export default function ProjectDetail() {
           priority
         />
         <div className="absolute inset-0 bg-black/60 z-10" />
-        <div className="relative z-20 flex flex-col items-start justify-center h-full px-4 sm:px-8 md:pl-28 max-w-2xl w-full">
-          <div className="flex items-start mb-4">
+        <div className="relative z-20 flex flex-col items-start justify-center h-full px-4 sm:px-8 md:pl-28 max-w-2xl w-full pt-2 sm:pt-0">
+          <div className="flex items-start mb-4 sm:mb-4">
             <div className="w-2 h-[40px] sm:h-[60px] bg-white mr-3 sm:mr-5 rounded" />
             <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-[1.08]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
               {project.title}
@@ -65,12 +65,12 @@ export default function ProjectDetail() {
           </div>
           {/* New Actual Work Section */}
           {project.actualWorkTitle && (
-            <div className="mb-2">
-              <h2 className="text-xl sm:text-2xl font-bold text-white" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            <div className="mb-2 sm:mb-2">
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-white" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
                 {project.actualWorkTitle}
               </h2>
               {project.actualWorkDesc && (
-                <p className="text-white text-sm sm:text-base mt-1" style={{fontFamily: 'Arial, sans-serif'}}>
+                <p className="text-white text-xs sm:text-sm md:text-base mt-1" style={{fontFamily: 'Arial, sans-serif'}}>
                   {project.actualWorkDesc}
                 </p>
               )}
@@ -85,8 +85,8 @@ export default function ProjectDetail() {
             <div><span className="font-bold">Client:</span> {project.client}</div>
             <div><span className="font-bold">Project Type:</span> {project.type}</div>
           </div>
-          {/* Mobile: below title, centered */}
-          <div className="block md:hidden relative z-20 text-white text-xs text-center mt-4 mb-2 px-2" style={{fontFamily: 'Arial, sans-serif'}}>
+          {/* Mobile: bottom positioned to avoid overlap */}
+          <div className="block md:hidden absolute bottom-1 left-4 right-4 z-20 text-white text-xs text-center px-2" style={{fontFamily: 'Arial, sans-serif'}}>
             <div><span className="font-bold">Date:</span> {project.date}</div>
             <div><span className="font-bold">Client:</span> {project.client}</div>
             <div><span className="font-bold">Project Type:</span> {project.type}</div>

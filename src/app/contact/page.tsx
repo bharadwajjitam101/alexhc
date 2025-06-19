@@ -1,6 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from "next/image";
+import emailjs from '@emailjs/browser';
+import { EMAILJS_CONFIG } from '@/config/emailjs';
 
 const faqs = [
   {
@@ -42,20 +44,49 @@ export default function Contact() {
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
   const [openIndex, setOpenIndex] = useState(0);
 
+  // Initialize EmailJS
+  useEffect(() => {
+    emailjs.init(EMAILJS_CONFIG.PUBLIC_KEY);
+  }, []);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
     try {
-      // Here you would typically send the data to your backend
-      // For now, we'll just simulate a successful submission
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      console.log('Form submitted:', formData);
+      // Send email to admin
+      const adminTemplateParams = {
+        user_name: formData.name,
+        user_email: formData.email,
+        message: formData.message,
+        subject: formData.subject || 'Contact Form Inquiry'
+      };
+
+      await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.ADMIN_TEMPLATE_ID,
+        adminTemplateParams
+      );
+
+      // Send thank you email to user
+      const userTemplateParams = {
+        user_name: formData.name,
+        user_email: formData.email,
+        message: formData.message
+      };
+
+      await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.USER_TEMPLATE_ID,
+        userTemplateParams
+      );
+
+      console.log('Emails sent successfully');
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
-      console.error('Error submitting form:', error);
+      console.error('Error sending emails:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -92,7 +123,7 @@ export default function Contact() {
               </h1>
             </div>
             <p className="text-white text-sm sm:text-base mb-4" style={{fontFamily: 'Arial, sans-serif'}}>
-            Reach out to us today. Whether it’s a query, consultation, or collaboration, our team at Alex Healthcare System is ready to assist you every step of the way.
+            Reach out to us today. Whether it's a query, consultation, or collaboration, our team at Alex Healthcare System is ready to assist you every step of the way.
             </p>
             <button className="bg-[#3376C8] text-white font-bold px-6 sm:px-8 py-3 rounded shadow hover:bg-blue-600 transition-all text-xs tracking-widest uppercase w-max" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
               Send a Message
@@ -155,13 +186,70 @@ export default function Contact() {
           <div className="flex-1 bg-white px-4 sm:px-8 md:px-10 py-8 sm:py-10 flex flex-col justify-start min-w-0 max-w-[540px] w-full" style={{ boxSizing: 'border-box' }}>
             <h2 className="text-xl sm:text-2xl md:text-[2.1rem] font-extrabold mb-2 text-[#222] leading-tight" style={{ fontFamily: 'Montserrat, Arial, sans-serif' }}>Get In Touch</h2>
             <div className="w-10 sm:w-16 h-1 bg-blue-600 mb-6 sm:mb-8" />
-            <form className="flex flex-col gap-4 sm:gap-5">
-              <input type="text" placeholder="Name" className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400" style={{ fontFamily: 'Montserrat, Arial, sans-serif', height: 44 }} />
-              <input type="email" placeholder="Email" className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400" style={{ fontFamily: 'Montserrat, Arial, sans-serif', height: 44 }} />
-              <textarea placeholder="Message" rows={4} className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400 resize-none" style={{ fontFamily: 'Montserrat, Arial, sans-serif', minHeight: 90 }} />
+            
+            {/* Success/Error Messages */}
+            {submitStatus === 'success' && (
+              <div className="mb-4 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
+                <p className="font-medium">Thank you! Your message has been sent successfully. We'll get back to you within 24 business hours.</p>
+              </div>
+            )}
+            
+            {submitStatus === 'error' && (
+              <div className="mb-4 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+                <p className="font-medium">Sorry, there was an error sending your message. Please try again or contact us directly.</p>
+              </div>
+            )}
+            
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4 sm:gap-5">
+              <input 
+                type="text" 
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+                placeholder="Name" 
+                required
+                className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400" 
+                style={{ fontFamily: 'Montserrat, Arial, sans-serif', height: 44 }} 
+              />
+              <input 
+                type="email" 
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                placeholder="Email" 
+                required
+                className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400" 
+                style={{ fontFamily: 'Montserrat, Arial, sans-serif', height: 44 }} 
+              />
+              <input 
+                type="text" 
+                name="subject"
+                value={formData.subject}
+                onChange={handleChange}
+                placeholder="Subject" 
+                className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400" 
+                style={{ fontFamily: 'Montserrat, Arial, sans-serif', height: 44 }} 
+              />
+              <textarea 
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                placeholder="Message" 
+                rows={4} 
+                required
+                className="bg-white border border-gray-200 rounded-none px-4 sm:px-5 py-3 text-sm sm:text-[1rem] font-medium text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-blue-400 resize-none" 
+                style={{ fontFamily: 'Montserrat, Arial, sans-serif', minHeight: 90 }} 
+              />
               <div className="flex justify-start mt-2">
-                <button type="submit" className="bg-white border-2 border-black px-6 sm:px-8 py-2 font-bold text-xs tracking-widest shadow-[0_8px_16px_0_rgba(0,0,0,0.18)] hover:bg-gray-100 transition-all uppercase text-black" style={{ fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em', boxShadow: '8px 12px 16px 0 rgba(0,0,0,0.18)' }}>
-                  Send Message
+                <button 
+                  type="submit" 
+                  disabled={isSubmitting}
+                  className={`bg-white border-2 border-black px-6 sm:px-8 py-2 font-bold text-xs tracking-widest shadow-[0_8px_16px_0_rgba(0,0,0,0.18)] transition-all uppercase text-black ${
+                    isSubmitting ? 'opacity-50 cursor-not-allowed' : 'hover:bg-gray-100'
+                  }`} 
+                  style={{ fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em', boxShadow: '8px 12px 16px 0 rgba(0,0,0,0.18)' }}
+                >
+                  {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </div>
             </form>
