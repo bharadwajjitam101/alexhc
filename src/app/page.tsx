@@ -207,7 +207,26 @@ export default function Home() {
           <h2 className="text-2xl sm:text-4xl font-extrabold text-[#232323] text-center mb-2" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Client Testimonials</h2>
           <div className="w-14 h-2 bg-[#3376C8] mb-8 sm:mb-14 mt-2 mx-auto rounded"></div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-10 mb-10 sm:mb-16">
-            {[1,2,3].map((i) => (
+            {[
+              {
+                quote: "We're extremely satisfied with the timely and efficient installation of our medical gas pipeline system by Alex Healthcare. The team demonstrated exceptional professionalism and ensured all regulatory compliances were met without hassle. The facility is now fully operational thanks to their support.",
+                name: "Dr. Rajiv Sharma",
+                position: "Director, Star Hospital",
+                hospital: "Star Hospital, Hojai"
+              },
+              {
+                quote: "Alex Healthcare delivered exactly what we needed — a seamless medical gas pipeline system customized to our hospital layout. Their understanding of hospital safety and engineering was evident throughout the project. We highly recommend their services.",
+                name: "Dr. Namita Das",
+                position: "MD, Kapili Hospital",
+                hospital: "Kapili Hospital, Assam"
+              },
+              {
+                quote: "From modular OT setup to ICU beds and gas line integration, Alex Healthcare handled the project end-to-end with clarity and care. Their quality workmanship has made a real difference in our daily operations.",
+                name: "Mr. Islam Ahmed",
+                position: "Administrator, Health Planet Hospital",
+                hospital: "Health Planet Hospital (Islam Sir)"
+              }
+            ].map((testimonial, i) => (
               <div key={i} className="bg-white rounded-lg shadow-sm p-6 sm:p-8 flex flex-col items-center">
                 {/* Stars */}
                 <div className="flex mb-4 sm:mb-6">
@@ -217,21 +236,14 @@ export default function Home() {
                     </svg>
                   ))}
                 </div>
-                <p className="text-[#555] text-sm sm:text-base text-center mb-4 sm:mb-8" style={{fontFamily: 'Arial, sans-serif'}}>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien, dignissim tristique tellus sed faucibus nullam."</p>
-                <div className="w-full text-left font-bold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>John Smith</div>
+                <p className="text-[#555] text-sm sm:text-base text-center text-justify mb-4 sm:mb-8" style={{fontFamily: 'Arial, sans-serif'}}>"{testimonial.quote}"</p>
+                <div className="w-full text-left">
+                  <div className="font-bold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{testimonial.name}</div>
+                  <div className="text-sm text-[#666] mt-1" style={{fontFamily: 'Arial, sans-serif'}}>{testimonial.position}</div>
+                  <div className="text-sm text-[#3376C8] font-semibold mt-1" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{testimonial.hospital}</div>
+                </div>
               </div>
             ))}
-          </div>
-          {/* Client Logos */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 gap-y-6 sm:gap-y-10 gap-x-6 sm:gap-x-12 items-center justify-items-center opacity-70 grayscale mt-6 sm:mt-8">
-            <Image src="/logos/gabo.png" alt="GABO Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/crosswill.png" alt="CROSSWILL Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/itch.png" alt="ITCH Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/jobline.png" alt="Job Line Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/loudnick.png" alt="LOUDNICK Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/realwave.png" alt="Real Wave Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/inner.png" alt="INNER Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
-            <Image src="/logos/wire.png" alt="Wire Logo" width={100} height={40} className="h-8 sm:h-12 w-auto object-contain" />
           </div>
         </div>
       </section>
