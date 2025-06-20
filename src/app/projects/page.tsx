@@ -1,6 +1,49 @@
 import Image from "next/image";
 import Link from "next/link";
 import projectsData from '../../../public/projects.json';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Our Projects - Hospital Construction & Healthcare Infrastructure",
+  description: "Explore our completed hospital construction projects, modular OT setups, ICU installations, and healthcare infrastructure developments across Northeast India. View our portfolio of successful healthcare facilities.",
+  keywords: [
+    "hospital construction projects",
+    "healthcare infrastructure projects",
+    "modular OT projects",
+    "ICU setup projects",
+    "medical gas pipeline projects",
+    "hospital projects Northeast India",
+    "healthcare facility projects",
+    "hospital construction portfolio",
+    "medical equipment installation projects",
+    "turnkey hospital projects"
+  ],
+  openGraph: {
+    title: "Our Projects - Hospital Construction & Healthcare Infrastructure",
+    description: "Explore our completed hospital construction projects, modular OT setups, ICU installations, and healthcare infrastructure developments across Northeast India.",
+    url: "https://www.alexhealthcaresystem.com/projects",
+    siteName: "Alex Healthcare System",
+    images: [
+      {
+        url: "/projects-carousel.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Alex Healthcare System Projects Portfolio",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Projects - Hospital Construction & Healthcare Infrastructure",
+    description: "Explore our completed hospital construction projects and healthcare infrastructure developments across Northeast India.",
+    images: ["/projects-carousel.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.alexhealthcaresystem.com/projects",
+  },
+};
 
 const projects = projectsData;
 

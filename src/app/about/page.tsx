@@ -1,5 +1,48 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "About Us - Alex Healthcare System",
+  description: "Learn about Alex Healthcare System - a leading provider of hospital infrastructure and medical equipment solutions in Northeast India. 12+ years of experience, 250+ completed projects.",
+  keywords: [
+    "Alex Healthcare System about",
+    "hospital infrastructure company",
+    "medical equipment solutions",
+    "Northeast India healthcare",
+    "hospital construction company",
+    "medical gas pipeline company",
+    "ICU setup company",
+    "modular OT company",
+    "healthcare infrastructure provider",
+    "hospital equipment supplier"
+  ],
+  openGraph: {
+    title: "About Us - Alex Healthcare System",
+    description: "Learn about Alex Healthcare System - a leading provider of hospital infrastructure and medical equipment solutions in Northeast India. 12+ years of experience, 250+ completed projects.",
+    url: "https://www.alexhealthcaresystem.com/about",
+    siteName: "Alex Healthcare System",
+    images: [
+      {
+        url: "/aboutus-carousel.jpg",
+        width: 1200,
+        height: 630,
+        alt: "About Alex Healthcare System",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Us - Alex Healthcare System",
+    description: "Learn about Alex Healthcare System - a leading provider of hospital infrastructure and medical equipment solutions in Northeast India.",
+    images: ["/aboutus-carousel.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.alexhealthcaresystem.com/about",
+  },
+};
 
 export default function About() {
   return (

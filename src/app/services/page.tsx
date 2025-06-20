@@ -1,6 +1,49 @@
 import Image from "next/image";
 import Link from "next/link";
 import projectsData from '../../../public/projects.json';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Our Services - Hospital Construction & Healthcare Infrastructure",
+  description: "Comprehensive hospital consultancy and infrastructure development services. From hospital construction and modular OT setup to medical gas pipeline systems and compliance support across Northeast India.",
+  keywords: [
+    "hospital consultancy services",
+    "hospital construction services",
+    "modular OT setup",
+    "medical gas pipeline installation",
+    "ICU setup services",
+    "hospital infrastructure development",
+    "healthcare facility planning",
+    "hospital licensing support",
+    "medical equipment supply",
+    "turnkey hospital solutions"
+  ],
+  openGraph: {
+    title: "Our Services - Hospital Construction & Healthcare Infrastructure",
+    description: "Comprehensive hospital consultancy and infrastructure development services. From hospital construction and modular OT setup to medical gas pipeline systems and compliance support.",
+    url: "https://www.alexhealthcaresystem.com/services",
+    siteName: "Alex Healthcare System",
+    images: [
+      {
+        url: "/servicess-carousel.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Alex Healthcare System Services",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Our Services - Hospital Construction & Healthcare Infrastructure",
+    description: "Comprehensive hospital consultancy and infrastructure development services across Northeast India.",
+    images: ["/servicess-carousel.jpg"],
+  },
+  alternates: {
+    canonical: "https://www.alexhealthcaresystem.com/services",
+  },
+};
 
 export default function Services() {
   return (
