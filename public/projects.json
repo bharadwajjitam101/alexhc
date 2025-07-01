@@ -6,17 +6,16 @@
     "client": "Monarch Group",
     "type": "Building Renovation",
     "heroImg": "/building-construction-main.jpg",
-    "description": "Complete Medical Gas Pipeline Installation including Air & Vacuum Plants. Fully equipped with modern ICU systems and 70-bed capacity. Delivered with optimal safety and operational efficiency.",
+    "description": "Turnkey hospital development including construction, MGPS setup, and modular OT. Delivered on schedule with full functional readiness.",
     "actualWorkTitle": "Medical Gas Pipeline Installation at Star Hospital",
-    "actualWorkDesc": "Complete Medical Gas Pipeline Installation including Air & Vacuum Plants. Fully equipped with modern ICU systems and 70-bed capacity.Delivered with optimal safety and operational efficiency.",
+    "actualWorkDesc": "Turnkey hospital development including construction, MGPS setup, and modular OT. Delivered on schedule with full functional readiness.",
     "about": {
       "desc": "Project Scope:",
       "bullets": [
-      "70-bed capacity multi-speciality hospital",
-      "Installation of oxygen, medical air, and vacuum pipelines",
-      "Integrated plant room with vacuum & air compressors",
-      "Smart supervision system for regulation and safety",
-      "Completed within stipulated timelines"
+        "Complete hospital construction",
+        "MGPS including oxygen, vacuum, and air pipelines",
+        "Modular OT and integrated ICU with bed head panels",
+        "Fire safety and HVAC integration"
       ],
       "img": "/custom-design-main.jpg"
     },
@@ -28,11 +27,11 @@
     "descBlocks": [
       {
         "img": "/building-construction-main.jpg",
-        "text": "Alex Healthcare System carried out a full-scale Medical Gas Pipeline System (MGPS) installation at Star Hospital, Hojai. This included end-to-end engineering, from pipeline layout planning to final plant commissioning."
+        "text": "Star Hospital in Hojai stands as a benchmark project executed by Alex Healthcare System. The project included complete hospital construction, end-to-end medical gas pipeline installation, and a fully modular OT setup."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "The project ensured consistent, safe delivery of life-supporting gases across all departments, contributing to enhanced critical care efficiency and hospital readiness."
+        "text": "The hospital features a 70-bed capacity, vacuum & air plant systems, and energy-efficient design. It now operates as one of Hojai’s most trusted multi-speciality facilities, showcasing Alex Healthcare’s turnkey capability."
       }
     ]
   },
@@ -49,11 +48,9 @@
     "about": {
       "desc": "Project Scope:",
       "bullets": [
-      "Centralized oxygen, suction, and compressed air pipeline system",
-      "Tailored layout for ICU and OT utility access",
-      "Modular bed panels with outlet fittings",
-      "Central plant room with safety tests passed",
-      "Ready for operational scalability"
+        "Complete Medical Gas Pipeline System (MGPS)",
+        "Pipeline layout, plant room configuration, and outlet installation",
+        "Future-ready setup with safety alarms and control valves"
       ],
       "img": "/repairs-main.jpg"
     },
@@ -65,32 +62,30 @@
     "descBlocks": [
       {
         "img": "/repairs-main.jpg",
-        "text": "This project included the complete medical gas pipeline infrastructure for Kapili Hospital. Alex Healthcare delivered a robust pipeline network tailored to the hospital’s unique layout and workflow."
+        "text": "Alex Healthcare System played a vital role in elevating Kapili Hospital’s infrastructure by executing a complete MGPS setup. This project aimed to deliver reliable oxygen, suction, and compressed air systems across wards, ICUs, and minor OT spaces."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "Designed for ease of maintenance and long-term functionality, the setup supports a broad range of medical utilities with minimal interruption and full compliance."
+        "text": "The system was configured to accommodate future capacity upgrades and included comprehensive safety features. Kapili Hospital now operates with greater efficiency, optimized care delivery, and zero disruption during emergencies."
       }
     ]
   },
   {
     "id": 2,
-    "title": "Health Planet Hospital (Islam Sir)",
+    "title": "Health Planet Hospital, Nagaon",
     "date": "5 March 2020",
     "client": "Creative Spaces",
     "type": "Custom Design",
     "heroImg": "/custom-design-main.jpg",
-    "description": "Commissioned one Major OT, 3 Semi-OTs, and 2 Minor OTs. Total bed capacity: 93 units. End-to-end project execution Focused on sterile, high-efficiency surgical environments.",
+    "description": "Custom MGPS and OT installations to upgrade existing infrastructure. Enhanced ICU operations with scrub station support.",
     "actualWorkTitle": "Modular OT & Bed Setup at Health Planet Hospital",
-    "actualWorkDesc": "Commissioned one Major OT, 3 Semi-OTs, and 2 Minor OTs. Total bed capacity: 93 units. End-to-end project execution Focused on sterile, high-efficiency surgical environments.",
+    "actualWorkDesc": "Custom MGPS and OT installations to upgrade existing infrastructure. Enhanced ICU operations with scrub station support.",
     "about": {
       "desc": "Project Scope:",
       "bullets": [
-      "1 Major OT, 3 Semi-OTs, and 2 Minor OTs installed",
-      "Modular panel systems for sterile environments",
-      "Full medical gas supply integration",
-      "93 beds outfitted across departments",
-      "Seamless OT-to-ward workflow supported"
+        "Medical gas pipeline installation",
+        "Bed head panels and basic OT infrastructure",
+        "Emergency backup, safety valves, and alarm systems"
       ],
       "img": "/building-construction-main.jpg"
     },
@@ -102,33 +97,31 @@
     "descBlocks": [
       {
         "img": "/custom-design-main.jpg",
-        "text": "Alex Healthcare executed one of its flagship modular OT projects at Health Planet Hospital. The surgical spaces were customized for safety, sterility, and smart space optimization."
+        "text": "Alex Healthcare upgraded Health Planet Hospital with a combination of gas pipeline installations and essential OT infrastructure. Central suction and oxygen lines were deployed across critical zones."
 
       },
       {
         "img": "/building-construction-main.jpg",
-        "text": "Alongside OT setups, patient beds were integrated with medical utilities ensuring readiness for day-to-day operations across wards."
+        "text": "These upgrades enabled smooth coordination between departments, ensured staff readiness, and minimized contamination risks."
       }
     ]
   },
   {
     "id": 3,
-    "title": "Various ICU Upgrades",
+    "title": "Metro Hospital, Guwahati",
     "date": "10 July 2021",
     "client": "City Infrastructure",
     "type": "Bridge Construction",
     "heroImg": "/about-bridge.jpg",
-    "description": "Modular ICU components installed across multiple locations. Includes Bed Head Panels, Medical Panel PCs, and Support Beams. Enabled critical care infrastructure modernization.",
+    "description": "Advanced modular and semi-modular OT theatres installed. Laminar flow, pendants, and curtains for modern surgical zones.",
     "actualWorkTitle": "Modular ICU Components Installation at Various Hospitals",
-    "actualWorkDesc": "Modular ICU components installed across multiple locations. Includes Bed Head Panels, Medical Panel PCs, and Support Beams. Enabled critical care infrastructure modernization.",
+    "actualWorkDesc": "Advanced modular and semi-modular OT theatres installed. Laminar flow, pendants, and curtains for modern surgical zones.",
     "about": {
       "desc": "Project Scope:",
       "bullets": [
-      "Bed Head Panels with utility connections",
-      "Medical Panel PCs and support beams installed",
-      "Streamlined ICU layouts with gas and electrical outlets",
-      "Coordinated with civil and interior works",
-      "Delivered for multiple hospitals in Assam and Bihar"
+        "Two modular and two semi-modular OTs",
+        "Laminar airflow, HEPA filters, pendants, and LED lighting",
+        "Scrub stations and curtain tracks"
       ],
       "img": "/about-bridge.jpg"
     },
@@ -140,32 +133,30 @@
     "descBlocks": [
       {
         "img": "/about-bridge.jpg",
-        "text": "Alex Healthcare carried out modular installations for ICUs across several hospitals, focusing on functionality, layout flexibility, and 24/7 support systems."
+        "text": "Alex Healthcare introduced modular flexibility to Metro Hospital through the installation of fully modular and semi-modular OTs. All setups were aligned with infection control norms and procedural workflow."
       },
       {
         "img": "/building-construction-main.jpg",
-        "text": "The result was smarter ICU environments with better staff accessibility, patient support, and efficient infrastructure deployment."
+        "text": "The project supports a higher volume of surgical activity with increased safety, shorter turnovers, and better clinical outcomes."
       }
     ]
   },
   {
     "id": 4,
-    "title": "Vacuum Pump Installations",
+    "title": "Nagaon Metro Hospital & Research Centre",
     "date": "18 September 2022",
     "client": "Downtown Business Center",
     "type": "Renovation",
     "heroImg": "/about-carousel.jpg",
-    "description": "Before-and-after demo of vacuum systems in live hospital setups. Fully monitored and tested for performance and safety. Includes smart monitoring integration.",
+    "description": "Single modular OT with complete theatre accessories and anti-microbial flooring. Created for optimal surgical control.",
     "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
-    "actualWorkDesc": "Demonstrated and installed vacuum systems with smart monitoring in live hospital setups.",
+    "actualWorkDesc": "Single modular OT with complete theatre accessories and anti-microbial flooring. Created for optimal surgical control.",
     "about": {
       "desc": "Project Scope:",
       "bullets": [
-      "MGPS (Medical Gas Pipeline System) installation for hospitals",
-      "Fire Management Systems set up to meet government NOC requirements",
-      "Vacuum pump systems and central plant room integration",
-      "Pre- and post-installation inspections",
-      "Services provided in Assam, North East India, and Bihar"
+        "Modular OT setup",
+        "Vinyl flooring with antimicrobial properties",
+        "Track and curtain installations, scrub sinks"
       ],
       "img": "/about-carousel.jpg"
     },
@@ -177,11 +168,116 @@
     "descBlocks": [
       {
         "img": "/about-carousel.jpg",
-        "text": "Alex Healthcare is a trusted partner in deploying compliant and efficient MGPS and fire safety infrastructure across healthcare facilities. From planning to implementation, every detail is aligned with regulatory standards."
+        "text": "At Nagaon Metro Hospital, Alex Healthcare focused on redesigning OT spaces for optimal sterility. Surgical zones were upgraded using hygienic surfaces and medical-grade accessories."
       },
       {
         "img": "/custom-design-main.jpg",
-        "text": "Our solutions not only enable smooth hospital operations but also support institutions in acquiring necessary government clearances like Fire Fighting NOC."
+        "text": "The result was an aseptic, efficient environment with minimal downtime and maximum surgical throughput."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Health City Hospital, Guwahati",
+    "date": "18 September 2022",
+    "client": "Downtown Business Center",
+    "type": "Renovation",
+    "heroImg": "/about-carousel.jpg",
+    "description": "Six full modular OTs installed with laminar airflow and scrub zones. One of the region’s largest OT enhancement projects.",
+    "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
+    "actualWorkDesc": "Six full modular OTs installed with laminar airflow and scrub zones. One of the region’s largest OT enhancement projects.",
+    "about": {
+      "desc": "Project Scope:",
+      "bullets": [
+        "Six modular OTs for multi-specialties",
+        "Laminar flow systems and custom scrub stations",
+        "Centralized MGPS and electrical routing"
+      ],
+      "img": "/about-carousel.jpg"
+    },
+    "images": [
+      "/about-carousel.jpg",
+      "/custom-design-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/about-carousel.jpg",
+        "text": "Health City Hospital’s extensive OT wing was developed with six fully modular setups tailored to departments like gastro, ortho, neuro, and general surgery."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "The modular infrastructure improved surgical precision, scheduling flexibility, and staff efficiency. It stands as a reference project in the region."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "IHR (Guwahati, Siliguri, Kolkata)",
+    "date": "18 September 2022",
+    "client": "Downtown Business Center",
+    "type": "Renovation",
+    "heroImg": "/about-carousel.jpg",
+    "description": "IVF-specialized OT upgrades across 3 locations. Delivered with sealed cleanroom systems, pass boxes, and surgical fittings.",
+    "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
+    "actualWorkDesc": "IVF-specialized OT upgrades across 3 locations. Delivered with sealed cleanroom systems, pass boxes, and surgical fittings.",
+    "about": {
+      "desc": "Project Scope:",
+      "bullets": [
+        "IVF OTs with sealed doors",
+        "Vinyl flooring, scrub stations, pass boxes, pendants",
+        "Environmental controls for embryology labs"
+      ],
+      "img": "/about-carousel.jpg"
+    },
+    "images": [
+      "/about-carousel.jpg",
+      "/custom-design-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/about-carousel.jpg",
+        "text": "Alex Healthcare set up IVF-compatible modular OTs across IHR’s three facilities, addressing high-precision needs like temperature, airflow, and humidity control."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "These clean environments ensured embryo safety and procedural consistency across all locations."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Phoenix Healthcare, Kolkata",
+    "date": "18 September 2022",
+    "client": "Downtown Business Center",
+    "type": "Renovation",
+    "heroImg": "/about-carousel.jpg",
+    "description": "Enhanced OT functionality through scrub station setup, sealed doors, and essential accessory fittings.",
+    "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
+    "actualWorkDesc": "Enhanced OT functionality through scrub station setup, sealed doors, and essential accessory fittings.",
+    "about": {
+      "desc": "Project Scope:",
+      "bullets": [
+        "Surgical scrub stations",
+        "Modular sealed doors",
+        "OT accessories"
+      ],
+      "img": "/about-carousel.jpg"
+    },
+    "images": [
+      "/about-carousel.jpg",
+      "/custom-design-main.jpg",
+      "/repairs-main.jpg"
+    ],
+    "descBlocks": [
+      {
+        "img": "/about-carousel.jpg",
+        "text": "Alex Healthcare enhanced Phoenix Healthcare’s operation rooms with key accessory installations, improving workflow and hygiene without disrupting ongoing operations."
+      },
+      {
+        "img": "/custom-design-main.jpg",
+        "text": "The upgrade significantly boosted staff readiness and streamlined surgical prep and recovery cycles."
       }
     ]
   }

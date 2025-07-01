@@ -162,22 +162,22 @@ export default function About() {
           {/* Stats Bar - moved outside the image container */}
           <div className="w-full grid grid-cols-2 h-[70px] sm:h-[100px] md:h-[110px] rounded-b-lg overflow-hidden">
             <div className="flex flex-col items-center justify-center bg-[#3376C8] bg-opacity-95">
-              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
+              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>15</div>
               <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Years Established</div>
             </div>
             <div className="flex flex-col items-center justify-center bg-[#232323] bg-opacity-95">
-              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>250</div>
+              <div className="text-2xl sm:text-5xl font-extrabold text-white drop-shadow-lg" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>105</div>
               <div className="text-xs sm:text-sm uppercase tracking-widest text-white mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Completed Projects</div>
             </div>
           </div>
           {/* Bottom stats - perfectly aligned below the stats bar */}
           <div className="w-full grid grid-cols-2 mt-6 sm:mt-8 px-0 md:px-0">
             <div className="flex flex-col items-center">
-              <div className="text-lg sm:text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>24</div>
+              <div className="text-lg sm:text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>2000+</div>
               <div className="text-xs sm:text-sm uppercase tracking-widest text-[#232323] mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Field Workers</div>
             </div>
             <div className="flex flex-col items-center">
-              <div className="text-lg sm:text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>18</div>
+              <div className="text-lg sm:text-3xl md:text-4xl font-extrabold text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>12</div>
               <div className="text-xs sm:text-sm uppercase tracking-widest text-[#232323] mt-1 font-semibold" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Office Staff</div>
             </div>
           </div>
