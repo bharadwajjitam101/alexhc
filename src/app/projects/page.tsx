@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Alex Healthcare System",
     images: [
       {
-        url: "/projects-carousel.jpg",
+        url: "/projects-carousel.jpg0",
         width: 1200,
         height: 630,
         alt: "Alex Healthcare System Projects Portfolio",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Projects - Hospital Construction & Healthcare Infrastructure",
     description: "Explore our completed hospital construction projects and healthcare infrastructure developments across Northeast India.",
-    images: ["/projects-carousel.jpg"],
+    images: ["/projects-carousel.jpg0"],
   },
   alternates: {
     canonical: "https://www.alexhealthcaresystem.com/projects",
@@ -53,7 +53,7 @@ export default function Projects() {
       {/* Hero Section */}
       <section className="relative w-full h-[260px] sm:h-[340px] md:h-[420px] flex items-center justify-between">
         <Image
-          src="/projects-carousel.jpg" // Replace with your actual hero image
+          src="/projects-carousel0.jpg" // Replace with your actual hero image
           alt="Projects Hero"
           fill
           className="object-cover object-center z-0"
