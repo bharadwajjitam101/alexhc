@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     siteName: "Alex Healthcare System",
     images: [
       {
-        url: "/projects-carousel.jpg0",
+        url: "/projects-carousel0.jpg",
         width: 1200,
         height: 630,
         alt: "Alex Healthcare System Projects Portfolio",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Projects - Hospital Construction & Healthcare Infrastructure",
     description: "Explore our completed hospital construction projects and healthcare infrastructure developments across Northeast India.",
-    images: ["/projects-carousel.jpg0"],
+    images: ["/projects-carousel0.jpg"],
   },
   alternates: {
     canonical: "https://www.alexhealthcaresystem.com/projects",
