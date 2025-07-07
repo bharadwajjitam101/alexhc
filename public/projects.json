@@ -3,9 +3,9 @@
     "id": 0,
     "title": "Star Hospital, Hojai",
     "date": "12 April 2018",
-    "client": "Monarch Group",
-    "type": "Building Renovation",
-    "heroImg": "/building-construction-main.jpg",
+    "client": "Star Hospital Group",
+    "type": "Medical Gas Pipeline Installation",
+    "heroImg": "/star1.png",
     "description": "Turnkey hospital development including construction, MGPS setup, and modular OT. Delivered on schedule with full functional readiness.",
     "actualWorkTitle": "Medical Gas Pipeline Installation at Star Hospital",
     "actualWorkDesc": "Turnkey hospital development including construction, MGPS setup, and modular OT. Delivered on schedule with full functional readiness.",
@@ -17,7 +17,7 @@
         "Modular OT and integrated ICU with bed head panels",
         "Fire safety and HVAC integration"
       ],
-      "img": "/custom-design-main.jpg"
+      "img": "/star2.png"
     },
     "images": [
       "/building-construction-main.jpg",
@@ -26,11 +26,11 @@
     ],
     "descBlocks": [
       {
-        "img": "/building-construction-main.jpg",
+        "img": "/start3.webp",
         "text": "Star Hospital in Hojai stands as a benchmark project executed by Alex Healthcare System. The project included complete hospital construction, end-to-end medical gas pipeline installation, and a fully modular OT setup."
       },
       {
-        "img": "/custom-design-main.jpg",
+        "img": "/start4.png",
         "text": "The hospital features a 70-bed capacity, vacuum & air plant systems, and energy-efficient design. It now operates as one of Hojai’s most trusted multi-speciality facilities, showcasing Alex Healthcare’s turnkey capability."
       }
     ]
@@ -39,9 +39,9 @@
     "id": 1,
     "title": "Kapili Hospital, Assam",
     "date": "22 June 2019",
-    "client": "Skyline Builders",
-    "type": "Repairs & Installations",
-    "heroImg": "/repairs-main.jpg",
+    "client": "Kapili Hospital",
+    "type": "Gas pipeline project",
+    "heroImg": "/kapili2.jpg",
     "description": "Full-scale gas pipeline project completed with precision engineering. Customized for effective medical utility distribution. Designed for scalability and long-term performance.",
     "actualWorkTitle": "Custom Medical Pipeline Setup at Kapili Hospital",
     "actualWorkDesc": "Full-scale gas pipeline project completed with precision engineering. Customized for effective medical utility distribution. Designed for scalability and long-term performance.",
@@ -61,11 +61,11 @@
     ],
     "descBlocks": [
       {
-        "img": "/repairs-main.jpg",
+        "img": "/kapili.webp",
         "text": "Alex Healthcare System played a vital role in elevating Kapili Hospital’s infrastructure by executing a complete MGPS setup. This project aimed to deliver reliable oxygen, suction, and compressed air systems across wards, ICUs, and minor OT spaces."
       },
       {
-        "img": "/custom-design-main.jpg",
+        "img": "/kapili2.jpg",
         "text": "The system was configured to accommodate future capacity upgrades and included comprehensive safety features. Kapili Hospital now operates with greater efficiency, optimized care delivery, and zero disruption during emergencies."
       }
     ]
@@ -74,8 +74,8 @@
     "id": 2,
     "title": "Health Planet Hospital, Nagaon",
     "date": "5 March 2020",
-    "client": "Creative Spaces",
-    "type": "Custom Design",
+    "client": "Health Planet Hospital",
+    "type": "Custom MGPS and OT installations",
     "heroImg": "/healthplanetnagao1.webp",
     "description": "Custom MGPS and OT installations to upgrade existing infrastructure. Enhanced ICU operations with scrub station support.",
     "actualWorkTitle": "Modular OT & Bed Setup at Health Planet Hospital",
@@ -110,8 +110,8 @@
     "id": 3,
     "title": "Metro Hospital, Guwahati",
     "date": "10 July 2021",
-    "client": "City Infrastructure",
-    "type": "Bridge Construction",
+    "client": "Metro Hospital",
+    "type": "Modular OT Theatres Installation",
     "heroImg": "/metroghy1.webp",
     "description": "Advanced modular and semi-modular OT theatres installed. Laminar flow, pendants, and curtains for modern surgical zones.",
     "actualWorkTitle": "Modular ICU Components Installation at Various Hospitals",
@@ -145,8 +145,8 @@
     "id": 4,
     "title": "Nagaon Metro Hospital & Research Centre",
     "date": "18 September 2022",
-    "client": "Downtown Business Center",
-    "type": "Renovation",
+    "client": "Nagaon Metro Hospital & Research Centre",
+    "type": "Modular OT Theatres Installation",
     "heroImg": "/nagaometro0.webp",
     "description": "Single modular OT with complete theatre accessories and anti-microbial flooring. Created for optimal surgical control.",
     "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
@@ -180,8 +180,8 @@
     "id": 5,
     "title": "Health City Hospital, Guwahati",
     "date": "18 September 2022",
-    "client": "Downtown Business Center",
-    "type": "Renovation",
+    "client": "Health City Hospital",
+    "type": "Modular OT Theatres Installation",
     "heroImg": "/healthcityghy0.webp",
     "description": "Six full modular OTs installed with laminar airflow and scrub zones. One of the region’s largest OT enhancement projects.",
     "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
@@ -215,8 +215,8 @@
     "id": 6,
     "title": "IHR (Guwahati, Siliguri, Kolkata)",
     "date": "18 September 2022",
-    "client": "Downtown Business Center",
-    "type": "Renovation",
+    "client": "IHR Group",
+    "type": "OT upgrades",
     "heroImg": "/ihr.jpg",
     "description": "IVF-specialized OT upgrades across 3 locations. Delivered with sealed cleanroom systems, pass boxes, and surgical fittings.",
     "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",
@@ -250,8 +250,8 @@
     "id": 7,
     "title": "Phoenix Healthcare, Kolkata",
     "date": "18 September 2022",
-    "client": "Downtown Business Center",
-    "type": "Renovation",
+    "client": "Phoenix Healthcare",
+    "type": "OT upgrades",
     "heroImg": "/pheonix0.webp",
     "description": "Enhanced OT functionality through scrub station setup, sealed doors, and essential accessory fittings.",
     "actualWorkTitle": "Vacuum Pump Installations at Various Hospitals",

@@ -173,14 +173,14 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/facility-planning.jpg" alt="Facility Planning Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Facility Planning & Architecture.jpg" alt="Facility Planning Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
       {/* Hospital Construction & Turnkey Execution Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/turnkey-execution.jpg" alt="Turnkey Execution Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Hospital Construction & Turnkey Execution.jpg" alt="Turnkey Execution Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -235,14 +235,14 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/engineering-infrastructure.jpg" alt="Engineering Infrastructure Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Engineering & Infrastructure Systems.jpg" alt="Engineering Infrastructure Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
       {/* Operational & Strategic Consulting Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/operational-consulting.jpg" alt="Operational Consulting Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Operational & Strategic Consulting.jpg" alt="Operational Consulting Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -297,14 +297,14 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/equipment-planning.jpg" alt="Equipment Planning Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Medical Equipment Planning & Procurement.webp" alt="Equipment Planning Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 
       {/* Technology & Digital Transformation Section */}
       <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
         <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
-          <img src="/digital-transformation.jpg" alt="Digital Transformation Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Technology & Digital Transformation.jpg" alt="Digital Transformation Main" className="w-full h-full object-cover rounded-lg" />
         </div>
         <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
@@ -358,7 +358,7 @@ export default function Services() {
           </div>
         </div>
         <div className="w-full md:w-[380px] flex-shrink-0 mt-8 md:mt-0">
-          <img src="/marketing-engagement.jpg" alt="Marketing Engagement Main" className="w-full h-full object-cover rounded-lg" />
+          <img src="/Marketing & Patient Engagement.jpg" alt="Marketing Engagement Main" className="w-full h-full object-cover rounded-lg" />
         </div>
       </section>
 

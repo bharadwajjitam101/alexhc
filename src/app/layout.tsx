@@ -87,8 +87,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/alex.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/alexhd.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/alexhd.png" />
+        <link rel="shortcut icon" href="/alexhd.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/alexhd.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="google-site-verification" content="7b2e4f473fac9a70" />

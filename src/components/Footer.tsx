@@ -10,13 +10,25 @@ export default function Footer() {
         {/* Logo Block (SVG only, no extra text) */}
         <div className="flex flex-col items-center md:items-start md:w-[280px] min-w-[280px] justify-center pt-2">
           <Image
-            src="/alexBW 1.svg"
+            src="/alexreal.png"
             alt="Alex Healthcare System Logo"
             width={250}
             height={117}
-            className="mb-0 w-[250px] h-auto"
+            className="mb-4 w-[250px] h-auto"
             priority
           />
+          {/* Partner Firm Logo */}
+          <div className="text-center md:text-left">
+            <p className="text-[0.8rem] text-gray-400 mb-2" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Partner Firm</p>
+            <Image
+              src="/mhslogo.png"
+              alt="MHS Partner Firm Logo"
+              width={200}
+              height={100}
+              className="w-[200px] h-auto ml-4"
+              priority
+            />
+          </div>
         </div>
 
         {/* Solutions, Latest Projects, Quick Links */}
