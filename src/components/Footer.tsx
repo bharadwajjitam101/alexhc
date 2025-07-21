@@ -59,8 +59,9 @@ export default function Footer() {
               <li><Link href="/" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Home</Link></li>
               <li><Link href="/services" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Services</Link></li>
               <li><Link href="/projects" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Projects</Link></li>
-              <li><Link href="/about" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>About US</Link></li>
+              <li><Link href="/about" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>About Us</Link></li>
               <li><Link href="/contact" className="text-[#8CA6D1] hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Contact Us</Link></li>
+              <li><Link href="/privacy-policy" className="hover:underline text-[0.85rem]" style={{fontFamily: 'Montserrat, Arial, sans-serif', color: '#fff'}}>Privacy Policy</Link></li>
             </ul>
           </div>
         </div>
