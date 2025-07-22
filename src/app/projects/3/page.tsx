@@ -1,49 +1,54 @@
-"use client";
-import { useEffect, useState } from "react";
-import { useParams, useRouter } from "next/navigation";
 import Image from "next/image";
+import Link from "next/link";
+import projectsData from '../../../../public/projects.json';
 
-type Project = {
-  id: number;
-  title: string;
-  date: string;
-  client: string;
-  type: string;
-  heroImg: string;
-  description: string;
+const project = {
+  id: 3,
+  title: "Metro Hospital, Guwahati",
+  date: "10 July 2021",
+  client: "Metro Hospital",
+  type: "Modular OT Theatres Installation",
+  heroImg: "/metroghy1.webp",
+  description: "Advanced modular and semi-modular OT theatres installed. Laminar flow, pendants, and curtains for modern surgical zones.",
+  actualWorkTitle: "Modular ICU Components Installation at Various Hospitals",
+  actualWorkDesc: "Advanced modular and semi-modular OT theatres installed. Laminar flow, pendants, and curtains for modern surgical zones.",
   about: {
-    desc: string;
-    bullets: string[];
-    img: string;
-  };
-  images: string[];
-  descBlocks: { img: string; text: string }[];
-  actualWorkTitle?: string;
-  actualWorkDesc?: string;
+    desc: "Project Scope:",
+    bullets: [
+      "Two modular and two semi-modular OTs",
+      "Laminar airflow, HEPA filters, pendants, and LED lighting",
+      "Scrub stations and curtain tracks"
+    ],
+    img: "/metroghy0.webp"
+  },
+  images: [
+    "/about-bridge.jpg",
+    "/building-construction-main.jpg",
+    "/repairs-main.jpg"
+  ],
+  descBlocks: [
+    {
+      img: "/metroghy2.webp",
+      text: "Alex Healthcare introduced modular flexibility to Metro Hospital through the installation of fully modular and semi-modular OTs. All setups were aligned with infection control norms and procedural workflow."
+    },
+    {
+      img: "/metroghy1.webp",
+      text: "The project supports a higher volume of surgical activity with increased safety, shorter turnovers, and better clinical outcomes."
+    }
+  ]
 };
 
-export default function ProjectDetail() {
-  const { id } = useParams();
-  const router = useRouter();
-  const [project, setProject] = useState<Project | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [allProjects, setAllProjects] = useState<Project[]>([]);
+function getRandomProjects(projects: any, excludeId: any, count: any) {
+  const filtered = projects.filter((p: any) => p.id !== excludeId);
+  for (let i = filtered.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [filtered[i], filtered[j]] = [filtered[j], filtered[i]];
+  }
+  return filtered.slice(0, count);
+}
 
-  useEffect(() => {
-    async function fetchProject() {
-      const res = await fetch("/projects.json");
-      const data: Project[] = await res.json();
-      const proj = data.find((p: any) => String(p.id) === String(id));
-      setProject(proj || null);
-      setAllProjects(data);
-      setLoading(false);
-    }
-    fetchProject();
-  }, [id]);
-
-  if (loading) return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
-  if (!project) return <div className="min-h-screen flex items-center justify-center text-red-600">Project not found</div>;
-
+export default function Project3() {
+  const latestProjects = getRandomProjects(projectsData, project.id, 3);
   return (
     <div className="min-h-screen w-full bg-white">
       {/* Hero Section */}
@@ -101,7 +106,7 @@ export default function ProjectDetail() {
             <h2 className="text-2xl sm:text-3xl font-extrabold mb-4 text-[#232323]" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>About this Project</h2>
             <p className="mb-4 text-gray-700 text-justify" style={{fontFamily: 'Arial, sans-serif'}}>{project.about.desc}</p>
             <ul className="list-disc pl-5 text-gray-700 mb-4">
-              {project.about.bullets.map((b: string, i: number) => <li key={i}>{b}</li>)}
+              {project.about.bullets.map((b: any, i: any) => <li key={i}>{b}</li>)}
             </ul>
           </div>
           <div className="flex-1">
@@ -113,14 +118,12 @@ export default function ProjectDetail() {
       {/* Project Images and Description Blocks */}
       <section className="w-full bg-white">
         <div className="max-w-5xl mx-auto px-2 sm:px-4 flex flex-col gap-10">
-          {project.descBlocks.map((block: {img: string; text: string}, i: number) => {
-            // For desktop: 0 (right), 1 (left), 2 (right)
+          {project.descBlocks.map((block: any, i: any) => {
             let desktopClass = '';
             if (i === 1) desktopClass = 'md:flex-row';
             else desktopClass = 'md:flex-row-reverse';
             return (
               <div key={i} className={`flex flex-col ${desktopClass} gap-8 items-center`}>
-                {/* On mobile: description first, then image. On desktop: keep alternating layout. */}
                 <div className="flex-1 text-gray-700 order-1 md:order-none" style={{fontFamily: 'Arial, sans-serif'}}>
                   {block.text}
                 </div>
@@ -137,20 +140,18 @@ export default function ProjectDetail() {
       <section className="w-full py-12 bg-[#F7F7F7]">
         <div className="max-w-7xl mx-auto px-2 sm:px-4">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-[#232323] text-center mb-8" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>Latest Projects</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-8 sm:gap-y-14 justify-center">
-            {allProjects.filter(p => String(p.id) !== String(id)).slice(0, 3).map((proj) => (
-              <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
+          <div className="flex flex-wrap gap-6 justify-center">
+            {latestProjects.map((proj: any) => (
+              <Link key={proj.id} href={`/projects/${proj.id}`} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[140px] relative">
                   <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />
                 </div>
                 <div className="flex flex-col px-4 sm:px-6 py-6 flex-1">
                   <div className="text-base sm:text-[1rem] font-bold mb-2 text-[#232323] text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>{proj.title}</div>
                   <div className="text-sm sm:text-[0.95rem] text-gray-600 mb-4 sm:mb-6 text-justify leading-[1.6]" style={{fontFamily: 'Arial, sans-serif'}}>{proj.description}</div>
-                  <button onClick={() => router.push(`/projects/${proj.id}`)} className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
-                    Learn More
-                  </button>
+                  <span className="border border-gray-400 text-[#232323] font-bold px-4 sm:px-5 py-2 bg-white hover:bg-gray-100 transition-all text-xs tracking-widest uppercase mt-auto text-center" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>Learn More</span>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>

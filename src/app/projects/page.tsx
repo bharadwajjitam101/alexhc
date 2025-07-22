@@ -45,7 +45,26 @@ export const metadata: Metadata = {
   },
 };
 
-const projects = projectsData;
+type Project = {
+  id: number;
+  title: string;
+  date: string;
+  client: string;
+  type: string;
+  heroImg: string;
+  description: string;
+  about: {
+    desc: string;
+    bullets: string[];
+    img: string;
+  };
+  images: string[];
+  descBlocks: { img: string; text: string }[];
+  actualWorkTitle?: string;
+  actualWorkDesc?: string;
+};
+
+const projects: Project[] = projectsData;
 
 export default function Projects() {
   return (
@@ -77,7 +96,7 @@ export default function Projects() {
       <section className="w-full py-10 sm:py-16 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-2 sm:px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 sm:gap-x-10 gap-y-8 sm:gap-y-14 justify-center">
-            {projects.map((proj, idx) => (
+            {projects.map((proj) => (
               <div key={proj.id} className="bg-white border border-gray-300 flex flex-col w-full max-w-xs mx-auto">
                 <div className="w-full h-[120px] sm:h-[160px] relative">
                   <Image src={proj.heroImg} alt={proj.title} fill className="object-cover object-center" />

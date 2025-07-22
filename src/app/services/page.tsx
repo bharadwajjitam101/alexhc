@@ -362,6 +362,39 @@ export default function Services() {
         </div>
       </section>
 
+      {/* Fire Safety & Management Services Section */}
+      <section className="w-full py-10 flex flex-col md:flex-row justify-center items-stretch md:items-stretch gap-8">
+        <div className="w-full md:w-[380px] flex-shrink-0 mb-8 md:mb-0">
+          <img src="/Fire safety image.webp" alt="Fire Safety Main" className="w-full h-full object-cover rounded-lg" />
+        </div>
+        <div className="bg-[#F8F8F8] max-w-3xl w-full px-4 sm:px-10 pt-10 pb-0 shadow-none flex flex-col items-start">
+          <h3 className="text-2xl sm:text-3xl font-extrabold text-[#232323] mb-2 text-left" style={{fontFamily: 'Montserrat, Arial, sans-serif'}}>
+            Fire Safety & Management Services
+          </h3>
+          <div className="w-12 sm:w-16 h-1 bg-[#3376C8] mb-6 mt-1 rounded" />
+          <p className="text-[#232323] text-sm mb-6 max-w-3xl text-left" style={{fontFamily: 'Arial, sans-serif'}}>
+            We ensure complete fire safety compliance for healthcare and commercial facilities through expert planning, installation, and certification support.<br/><br/>Key Services:
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-[#232323] text-sm text-left w-full" style={{fontFamily: 'Arial, sans-serif'}}>
+            <ul className="list-disc list-inside space-y-1 whitespace-nowrap">
+              <li>Fire Alarm & Detection System Installation</li>
+              <li>Sprinkler and Hose Reel Systems</li>
+              <li>Hydrant Network and Pump Room Setup</li>
+              <li>Fire Extinguisher Supply and Placement</li>
+              <li>Design, Drawings & Compliance Documentation for Fire NOC</li>
+              <li>Fire Safety Audits and Consultancy</li>
+            </ul>
+          </div>
+          <div className="w-full flex justify-center">
+            <div className="bg-[#232323] w-full h-[56px] sm:h-[72px] flex items-center justify-center mt-0">
+              <button className="border-2 border-white text-white font-bold px-8 sm:px-12 py-3 bg-[#232323] hover:bg-black transition-all text-xs tracking-widest uppercase shadow-[4px_4px_0_0_rgba(0,0,0,0.18)]" style={{fontFamily: 'Montserrat, Arial, sans-serif', letterSpacing: '0.08em'}}>
+                <Link href="/contact">Get a Quote</Link>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Latest Projects Section */}
       <section className="w-full bg-white py-12 sm:py-20">
         <div className="max-w-7xl mx-auto px-2 sm:px-4">
